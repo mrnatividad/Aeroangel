@@ -1,0 +1,31 @@
+.home{
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-text p{
+    line-height: 30px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.home-text{
+    display: flex;
+    text-align: left;
+    flex-wrap: nowrap;
+}
+
+.home-quote{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    flex-wrap: nowrap;
+}
+
+.home-quote p {
+    text-align: center;
+    line-height: 55px;
+}
+
