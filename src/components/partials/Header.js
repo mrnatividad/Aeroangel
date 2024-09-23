@@ -1,13 +1,22 @@
 import { Link} from "react-router-dom";
 import './header.css';
 import { useNavigate } from "react-router-dom";
+import { useState } from "react";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Header = () => {
     const navigate = useNavigate();
+    const [isOpen, setIsOpen] = useState(false)
 
     const handleLogoClicked = () => {
         navigate('/');
     }
+
+    const handleOpenClose = () => {
+        setIsOpen(prev => !prev)
+    }
+
+
 
 
     return (

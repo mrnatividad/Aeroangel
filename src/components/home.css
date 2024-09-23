@@ -29,3 +29,29 @@
     line-height: 55px;
 }
 
+@media screen and (max-width:800px) {
+    .home{
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-quote p {
+        text-align: center;
+        line-height: 25px;
+        font-size: 20px;
+    }
+
+    .home-text p{
+        line-height: 25px;
+        font-weight: 500;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-bottom: 25px;
+        font-size: 10px;
+    }
+
+    .home-quote{
+        font-size: 35px;
+    }
+}
