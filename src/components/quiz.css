@@ -1,11 +1,17 @@
-.title{
+.inknut-antiqua-normal {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.title-quiz{
     font-size: 70px;
     color: #651229;
-    margin-bottom: 30px;
     text-align: center;
     font-weight: 900;
 }
 
 .quiz{
-    padding: 50px 50px;
+
 }

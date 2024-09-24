@@ -1,4 +1,4 @@
-.title{
+.title-contact{
     font-size: 70px;
     color: #651229;
     margin-bottom: 30px;
@@ -6,6 +6,9 @@
     font-weight: 900;
 }
 
-.contact{
-    padding: 50px 50px;
-}
+
+.inknut-antiqua-normal {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-style: normal; 
+  }

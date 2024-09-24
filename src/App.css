@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -6,10 +9,26 @@
 }
 
 body{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../public/websiteBG.jpg');
+    background-image: #FFF9E9;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    backdrop-filter: blur(2px);
 }
+
+
+.inknut-antiqua-extrabold {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.inknut-antiqua-light {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+
+  
+

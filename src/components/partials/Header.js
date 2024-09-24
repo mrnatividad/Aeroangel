@@ -4,21 +4,14 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
+
 const Header = () => {
     const navigate = useNavigate();
-    const [isOpen, setIsOpen] = useState(false)
 
     const handleLogoClicked = () => {
         navigate('/');
     }
-
-    const handleOpenClose = () => {
-        setIsOpen(prev => !prev)
-    }
-
-
-
-
+    
     return (
         <>
             <nav>
@@ -26,13 +19,13 @@ const Header = () => {
                     <div className="left">
                        <div className="logo-with-title" onClick={handleLogoClicked}>
                             <img src = "./logo.png" alt="logo" className="logo_title"/>
-                            <div className="logo-title">Aero<span>Angel</span></div>
+                            <div className="logo-title inknut-antiqua-extrabold">Aero<span className="inknut-antiqua-normal">Angel</span></div>
                        </div>
                         <div className="nav-menu">
                             <ul>
-                                <li><Link to = "/discover">Discover</Link></li>
-                                <li><Link to = "/">Project</Link></li>
-                                <li><Link to = "/quiz">Quiz</Link></li>
+                                <li><Link to = "/discover" className="inknut-antiqua-light">Discover</Link></li>
+                                <li><Link to = "/" className="inknut-antiqua-light">Project</Link></li>
+                                <li><Link to = "/quiz" className="inknut-antiqua-light">Quiz</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -45,8 +38,8 @@ const Header = () => {
                         </div>
                         <div className="nav-menu-2">
                             <ul>
-                                <li><Link to = "/contact">Contact</Link></li>
-                                <li><Link to = "/about">About</Link></li>
+                                <li><Link to = "/contact" className="inknut-antiqua-light">Contact</Link></li>
+                                <li><Link to = "/about" className="inknut-antiqua-light">About</Link></li>
                             </ul>
                         </div>
                     </div>

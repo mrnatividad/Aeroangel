@@ -1,26 +1,26 @@
 
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9; /* Light background for contrast */
+    background-color: #f9f9f9; 
 }
 
 nav {
-    background-color: #ffffff; /* White background for the navbar */
-    box-shadow: 0 5px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 5px 2px rgba(0, 0, 0, 0.1); 
     padding: 0 20px;
-    z-index: 999;
+    z-index: 99;
+    flex-wrap: nowrap;
+    background-color: #FBEBD9;
 }
 
+
 .logo_title{
-    height: 100px;
+    height: 80px;
     width: 100px;
-    transform: scale(1.2);
 }
 
 
 .logo-title{
-    font-size: 70px;
+    font-size: 30px;
     color: #651229;
     margin-left: -15px;
     cursor: pointer;
@@ -28,11 +28,12 @@ nav {
 
 span{
     color: #C29244;
+    
 }
 
 .search-logo{
-    height: 50px;
-    width: 60px;
+    height: 30px;
+    width: 40px;
     position: absolute;
     left: 0;
 }
@@ -41,7 +42,8 @@ span{
     justify-content: space-between;
     display: flex;
     align-items: center;
-    padding: 5px;
+    flex-wrap: nowrap;
+
 }
 
 .left{
@@ -56,6 +58,7 @@ span{
     justify-content: center;
     align-items: center;
     position: relative;
+
     
     
 }
@@ -64,6 +67,7 @@ span{
     display: flex;
     gap: 20px;
     justify-content: space-around;
+    
 }
 
 .nav-menu li {
@@ -73,9 +77,8 @@ span{
 
 .nav-menu a {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #651229;
-    font-weight: 600;
     
 }
 
@@ -93,11 +96,10 @@ span{
 
 .search-logo-input{
     position: relative;
-    
 }
 
 .contain-search{
-    height: 100px;
+    height: 80px;
     width: 250px;
     justify-content: center;
     display: flex;
@@ -108,7 +110,7 @@ span{
 input{
     width: 100%;
     height: 50%;;
-    padding-left: 50px;
+    padding-left: 35px;
     padding-right: 10px;
 }
 
@@ -130,7 +132,7 @@ input::placeholder{
 
 .nav-menu-2 a {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: #651229;
     font-weight: 600;
 }
@@ -140,37 +142,27 @@ input::placeholder{
     transition: 0.5s ease;
 }
 
+
+
+
 @media screen and (max-width: 800px) {
-    .nav-menu {
-        display: none; /* Hide menu by default */
-        flex-direction: column;
-        width: 100%;
-        position: absolute;
-        top: 60px; /* Adjust based on navbar height */
-        left: 0;
-        background: #333;
-        z-index: 1;
+    .nav-menu a{
+        font-size: 10px;
     }
-
-    .nav-menu-2{
-        display: none; /* Hide menu by default */
-    }
-    
+    .nav-menu-2 a{
+        font-size: 10px; 
+    } 
     .nav-menu.active {
-        display: flex; /* Show menu when active */
+        display: flex; 
     }
-
     .menu-icon {
-        display: block; /* Show the menu icon */
+        display: block; 
     }
-
     .logo_title{
         height: 50px;
         width: 50px;
-        transform: scale(1.2);
-    }
-    
-    
+        transform: scale(1.9);
+    } 
     .logo-title{
         font-size: 30px;
         color: #651229;
@@ -179,12 +171,8 @@ input::placeholder{
     }
 
 
-
-
-
     .contain-search{
-        height: 50px;
-        width: 100px;
+        width: 80px;
         justify-content: center;
         display: flex;
         align-items: center;
@@ -208,5 +196,9 @@ input::placeholder{
         width: 20px;
     }
 
+ 
+
 }
+
+
 
