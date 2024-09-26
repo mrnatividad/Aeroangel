@@ -8,8 +8,9 @@
 .home-text p{
     line-height: 30px;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 20px;
     text-align: left;
+    
 }
 
 .home-text{
@@ -30,6 +31,7 @@
     text-align: center;
     line-height: 55px;
     font-size: 35px;
+    color: #651229;
 }
 
 .alo{

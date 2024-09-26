@@ -18,7 +18,7 @@ const Header = () => {
                 <div className="navbar-container">
                     <div className="left">
                        <div className="logo-with-title" onClick={handleLogoClicked}>
-                            <img src = "./logo.png" alt="logo" className="logo_title"/>
+                            <img src = "./LogoV2.png" alt="logo" className="logo_title"/>
                             <div className="logo-title inknut-antiqua-extrabold">Aero<span className="inknut-antiqua-normal">Angel</span></div>
                        </div>
                         <div className="nav-menu">
