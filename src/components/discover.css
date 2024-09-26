@@ -54,6 +54,12 @@
 
 
 @media (max-width:800px){
+    .title-discover{
+        font-size: 35px; 
+        margin-bottom: 50px;
+    }
+
+
     .two-types{
         flex-direction: column;
         gap: 20px;

@@ -15,3 +15,10 @@
 .quiz{
 
 }
+
+@media (max-width:800px){
+  .title-quiz{
+    font-size: 35px; 
+    margin-bottom: 50px;
+  } 
+}

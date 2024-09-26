@@ -24,7 +24,7 @@ const Home = () => {
                     "Reach beyond the skies, <span className='inknut-antiqua-normal'>
                     for every innovation 
                     you create brings humanity 
-                    closer to the stars</span>.
+                    closer to the stars. <span className='alo inknut-antiqua-normal'>-Alo</span></span>.
                 </p>
             </div>
         </div>

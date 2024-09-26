@@ -12,3 +12,11 @@
     font-weight: 400;
     font-style: normal; 
   }
+
+
+  @media (max-width:800px){
+    .title-contact{
+        font-size: 35px; 
+        margin-bottom: 50px;
+      } 
+  }

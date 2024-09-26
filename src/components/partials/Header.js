@@ -1,8 +1,8 @@
-import { Link} from "react-router-dom";
 import './header.css';
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import {NavLink} from 'react-router-dom'
 
 
 const Header = () => {
@@ -23,9 +23,9 @@ const Header = () => {
                        </div>
                         <div className="nav-menu">
                             <ul>
-                                <li><Link to = "/discover" className="inknut-antiqua-light">Discover</Link></li>
-                                <li><Link to = "/" className="inknut-antiqua-light">Project</Link></li>
-                                <li><Link to = "/quiz" className="inknut-antiqua-light">Quiz</Link></li>
+                                <li><NavLink to = "/discover" className="inknut-antiqua-light"  >Discover</NavLink></li>
+                                <li><NavLink to = "/" className="inknut-antiqua-light">Project</NavLink></li>
+                                <li><NavLink to = "/quiz" className="inknut-antiqua-light">Quiz</NavLink></li>
                             </ul>
                         </div>
                     </div>
@@ -38,8 +38,8 @@ const Header = () => {
                         </div>
                         <div className="nav-menu-2">
                             <ul>
-                                <li><Link to = "/contact" className="inknut-antiqua-light">Contact</Link></li>
-                                <li><Link to = "/about" className="inknut-antiqua-light">About</Link></li>
+                                <li><NavLink to = "/contact" className="inknut-antiqua-light">Contact</NavLink></li>
+                                <li><NavLink to = "/about" className="inknut-antiqua-light">About</NavLink></li>
                             </ul>
                         </div>
                     </div>
