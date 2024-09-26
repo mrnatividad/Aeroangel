@@ -41,6 +41,15 @@
     width: 100%;
 }
 
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(169, 169, 169, 0.4), rgba(101, 101, 101, 0.4));
+    pointer-events: none; 
+}
 
 .discover-image {
     height: 100%;

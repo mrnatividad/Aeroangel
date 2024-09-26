@@ -21,10 +21,12 @@ const Discover = () => {
                 <div className='card' onClick={handleType}>
                      <h2 className='title-card'>Type of Aircrafts</h2>
                      <img src = "./discover1.jpg" className='discover-image'/>
+                     <div class="gradient-overlay"></div>
                 </div>
                 <div className='card' onClick={handleNaca}>
                      <h2 className='title-card'>NACA Airfoil Wing</h2>
                      <img src = "./discover2.jpg" className='discover-image'/>
+                     <div class="gradient-overlay"></div>
                 </div>
             </div>
         </div>

@@ -6,7 +6,7 @@ import About from './components/About';
 import Discover from './components/Discover';
 import Quiz from './components/Quiz';
 import Contact from './components/Contact';
-import TypeOfAircrafts from './components/DiscoverChildren/TypeOfAircrafts';
+import TypeOfAircrafts from './components/discoverChildren/TypeOfAircrafts';
 
 function App() {
   return (

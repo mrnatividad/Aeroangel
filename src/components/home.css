@@ -2,7 +2,7 @@
     padding: 50px 50px;
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .home-text p{
@@ -21,7 +21,9 @@
 .home-quote{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 50%;
+    height: 100%;
 }
 
 .home-quote p {
