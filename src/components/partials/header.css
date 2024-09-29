@@ -4,9 +4,10 @@ nav {
     box-shadow: 0 5px 2px rgba(0, 0, 0, 0.1); 
     padding: 0 20px;
     z-index: 99;
-    flex-wrap: nowrap;
     background-color: #FBEBD9;
-
+    position: sticky;
+    width: 100%;
+    top: 0;
 }
 
 
@@ -40,7 +41,6 @@ span{
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
-
 }
 
 .left{
@@ -141,6 +141,7 @@ input::placeholder{
 
 
 
+
 @media screen and (max-width: 800px) {
     .nav-menu a{
         font-size: 15px;
@@ -210,7 +211,104 @@ input::placeholder{
         padding: 0;
     }
 
- 
+}
+
+.navbar-small{
+    display: none;
+}
+.logo_title-mobile{
+    width: 100px;
+    height: 80px;
+}
+.search-logo-mobile{
+    width: 40px;
+    height: 30px;
+}
+
+
+
+
+
+@media screen and (max-width:400px) {
+
+    .navbar-container{
+        display: none;
+    }
+
+    .navbar-small{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        flex-wrap: nowrap;
+        padding: 5px;
+    }
+
+    .nav-menu-mobile ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .nav-menu-mobile li {
+        list-style-type: none;
+    }
+
+    .nav-menu-mobile li a{
+        text-decoration: none;
+        color:#651229;
+    }
+
+    .logo-mobile{
+        position: relative;
+        display: flex ;
+        justify-content: center;
+    }
+
+    .contain-search-menu{
+        position: relative;
+        height: 30px;
+    }
+    .search-logo-mobile{
+        position: absolute;
+        left: 0;
+    }
+    .contain-search-menu input{
+        height: 100%;
+        padding-left: 40px;
+    }
+
+    
+}
+
+@media screen and (max-width:350px){
+    .nav-menu-mobile ul{
+        flex-direction: column;
+    }
+
+    .logo_title-mobile{
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo-title{
+       font-size: 20px;
+    }
+
+    .nav-menu-mobile li {
+        font-size: 10px;
+    }
+
+    .contain-search-menu{
+        position: relative;
+        height: 20px;
+    }
+
+    .search-logo-mobile{
+        width: 20px;
+        height: 20px;
+    }
 
 }
 

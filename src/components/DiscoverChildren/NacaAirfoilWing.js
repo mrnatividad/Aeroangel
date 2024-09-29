@@ -1,7 +1,11 @@
+import './nacaAirfoilWing.css';
 
 const NacaAirfoilWing = () => {
     return (
-        <h1>Naca Airfoil Wing</h1>
+        <div className="nacaAirfoilWing">
+            <div className='title-airfoilWing'>Naca Airfoil Wing</div>
+            <h1>Hello World</h1>
+        </div>
     )
 }
 
