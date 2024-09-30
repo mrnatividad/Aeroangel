@@ -24,7 +24,8 @@ const Header = () => {
                             <ul>
                                 <li><NavLink to = "/discover" className="inknut-antiqua-light"  >Discover</NavLink></li>
                                 <li><NavLink to = "/" className="inknut-antiqua-light">Project</NavLink></li>
-                                <li><NavLink to = "/quiz" className="inknut-antiqua-light">Quiz</NavLink></li>
+                                <li><NavLink to = "/contact" className="inknut-antiqua-light">Contact</NavLink></li>
+                                <li><NavLink to = "/about" className="inknut-antiqua-light">About</NavLink></li>
                             </ul>
                         </div>
                     </div>
@@ -37,8 +38,9 @@ const Header = () => {
                         </div>
                         <div className="nav-menu-2">
                             <ul>
-                                <li><NavLink to = "/contact" className="inknut-antiqua-light">Contact</NavLink></li>
-                                <li><NavLink to = "/about" className="inknut-antiqua-light">About</NavLink></li>
+                               
+                                <li><NavLink to = "/quiz" className="inknut-antiqua-light">Quiz</NavLink></li>
+                                <li><NavLink to = "/" className="inknut-antiqua-light">Resources</NavLink></li>
                             </ul>
                         </div>
                     </div>
@@ -56,6 +58,7 @@ const Header = () => {
                                 <li><NavLink to = "/quiz" className="inknut-antiqua-light">Quiz</NavLink></li>
                                 <li><NavLink to = "/contact" className="inknut-antiqua-light">Contact</NavLink></li>
                                 <li><NavLink to = "/about" className="inknut-antiqua-light">About</NavLink></li>
+                                <li><NavLink to = "/" className="inknut-antiqua-light">Resources</NavLink></li>
                             </ul>
                         </div>
                         <div className="contain-search-menu">

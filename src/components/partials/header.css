@@ -41,6 +41,9 @@ span{
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
+    position: sticky;
+    top: 0;
+    width: 100%;
 }
 
 .left{
@@ -101,6 +104,7 @@ span{
     justify-content: center;
     display: flex;
     align-items: center;
+    border-radius: 10px;
 }
 
 
@@ -109,6 +113,7 @@ input{
     height: 50%;;
     padding-left: 35px;
     padding-right: 10px;
+    border-radius: 20px;
 }
 
 input::placeholder{
@@ -203,12 +208,15 @@ input::placeholder{
     }
 
     .nav-menu-2 ul{
-
         justify-content: center;
     }
 
     nav {
         padding: 0;
+    }
+
+    .contain-search-menu{
+        width: 200px;
     }
 
 }
@@ -229,7 +237,9 @@ input::placeholder{
 
 
 
-@media screen and (max-width:400px) {
+
+
+@media screen and (max-width:450px) {
 
     .navbar-container{
         display: none;
@@ -238,8 +248,7 @@ input::placeholder{
     .navbar-small{
         display: flex;
         flex-direction: column;
-        height: auto;
-        flex-wrap: nowrap;
+        justify-content: center;
         padding: 5px;
     }
 
@@ -258,6 +267,7 @@ input::placeholder{
     .nav-menu-mobile li a{
         text-decoration: none;
         color:#651229;
+        font-size: 11px;
     }
 
     .logo-mobile{
@@ -269,6 +279,7 @@ input::placeholder{
     .contain-search-menu{
         position: relative;
         height: 30px;
+        margin: auto;
     }
     .search-logo-mobile{
         position: absolute;
