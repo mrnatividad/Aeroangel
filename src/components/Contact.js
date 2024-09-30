@@ -7,24 +7,44 @@ import emailjs from 'emailjs-com';
 
 const Contact = () => {
     const form = useRef()
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const [loading, setLoading] = useState(false);
+
 
     const sendEmail = (e) => {
         e.preventDefault();
+        setLoading(true);
 
-        emailjs
-          .sendForm('service_gmz5s8k', 'template_wuk8i5a', form.current, {
-            publicKey: '6q7zH3izJhHIhyywK',
-          })
-          .then(
-            () => {
-              console.log('SUCCESS!');
-              form.current.reset(); // Reset the form fields
+        emailjs.init('1Fq6SQFCBm54wqMa-');
+
+        let templateParams = {
+            name: name,
+            email: email,
+            message: message
+          };
+          
+          emailjs.send('service_gmz5s8k', 'template_wuk8i5a', templateParams).then(
+            (response) => {
+              console.log('SUCCESS!', response.status, response.text);
+              setName('');
+              setMessage('');
+              setEmail('');
+              setLoading(false);
             },
             (error) => {
-              console.log('FAILED...', error.text);
+              console.log('FAILED...', error);
+              setLoading(false);
             },
           );
+
     };
+
+    const handleName = (e) => setName(e.target.value)
+    const handleEmail = (e) => setEmail(e.target.value)
+    const handleMessage = (e) => setMessage(e.target.value)
+    
 
     return (
         <div className="contact">
@@ -40,6 +60,8 @@ const Contact = () => {
                             className='textbox' 
                             placeholder='Name' 
                             required // Add required attribute
+                            value={name} 
+                            onChange={handleName}
                         />
                     </div>
                     <div className='textbox-container'>
@@ -51,6 +73,8 @@ const Contact = () => {
                             className='textbox' 
                             placeholder='Email' 
                             required // Add required attribute
+                            value={email} 
+                            onChange={handleEmail}
                         />
                     </div>
                     <div className='textbox--big'>
@@ -60,9 +84,14 @@ const Contact = () => {
                             placeholder="Message" 
                             className='textbox-big' 
                             required // Add required attribute
+                            value={message} 
+                            onChange={handleMessage}
                         />
                     </div>
-                    <button type="submit" className='button'>Send</button> {/* Add a submit button */}
+                   {loading ? (<button type="submit" className='button' disabled>Sending...</button>
+                   ) : (
+                    <button type='submit' className='button'>Submit</button>
+                   )}
                 </form>
                 <div className='image-container'>
                     <h1>Image Here</h1>
