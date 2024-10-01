@@ -8,6 +8,9 @@ import Quiz from './components/Quiz';
 import Contact from './components/Contact';
 import TypeOfAircrafts from './components/DiscoverChildren/TypeOfAircrafts';
 import NacaAirfoilWing from './components/DiscoverChildren/NacaAirfoilWing';
+import LightAircraft from './components/DiscoverChildren/TypeChildren/LightAircraft';
+import SailPane from './components/DiscoverChildren/TypeChildren/SailPane';
+import LowSpeedAircraft from './components/DiscoverChildren/TypeChildren/LowSpeedAircraft';
 
 function App() {
   return (
@@ -22,7 +25,12 @@ function App() {
 
     <Route path = "discover" >
     <Route index element = {<Discover />} />
-    <Route path= 'type' element = {<TypeOfAircrafts />} />
+    <Route path= 'type' >
+    <Route index element = {<TypeOfAircrafts />} />
+    <Route path = 'lightaircraft' element = {<LightAircraft /> } />
+    <Route path = 'sailplane' element = {<SailPane />} />
+    <Route path = 'lowspeedaircraft' element = {<LowSpeedAircraft />} />
+    </Route>
     <Route path = 'naca' element = {<NacaAirfoilWing />} />
     </Route>
 

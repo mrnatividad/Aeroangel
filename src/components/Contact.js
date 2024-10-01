@@ -31,6 +31,7 @@ const Contact = () => {
               setName('');
               setMessage('');
               setEmail('');
+              alert('Send Successfully');
               setLoading(false);
             },
             (error) => {
@@ -94,7 +95,7 @@ const Contact = () => {
                    )}
                 </form>
                 <div className='image-container'>
-                    <h1>Image Here</h1>
+                        <img src = "/contactFiller.png" className='contact-image' alt='nacaAirfoilWing'/>
                 </div>
             </div>
         </div>

@@ -1,23 +1,23 @@
 import './typeAircrafts.css'
 import { useNavigate } from 'react-router-dom'
+import { lightAircraft } from '../../data/data';
 
 const TypeOfAircrafts = () => {
 
     const navigate = useNavigate();
 
         const handleLight = () => {
-            navigate('/')
+            navigate('/discover/type/lightaircraft')
         }
 
         const handleLow = () => {
-            navigate('/')
+            navigate('/discover/type/lowspeedaircraft')
         }
 
         const handleGlider = () => {
-            navigate('/')
+            navigate('/discover/type/sailplane')
         }
-
-
+    
     return (
         <div className='typeAircrafts'>
             <div className='title-typeAircrafts inknut-antiqua-normal '>Type of Aircraft</div>
@@ -34,7 +34,7 @@ const TypeOfAircrafts = () => {
                      <div className='gradient-overlay'></div>
                 </div>
                 <div className='card' onClick={handleGlider}>
-                     <h2 className='title-card'>Glider</h2>
+                     <h2 className='title-card'>SailPane</h2>
                      <img src = "/Gliders.jpg" className='discover-image' alt='gliders'/>
                      <div className='gradient-overlay'></div>
                 </div>

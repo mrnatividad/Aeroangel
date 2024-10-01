@@ -1,7 +1,7 @@
 .title-contact{
     font-size: 70px;
     color: #651229;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     text-align: center;
     font-weight: 900;
 }
@@ -15,9 +15,8 @@
 
   .form-container-img{
     display: flex;
-    justify-content: space-around;
-    gap: 15px;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
   }
 
   .textbox-container{
@@ -35,6 +34,7 @@
   form{
     width: auto;
     height: auto;
+    
   }
 
   textarea {
@@ -44,6 +44,13 @@
     border-radius: 10px; /* Rounded corners */
     padding-left: 30px;
     resize: none;
+}
+
+
+.contact-image{
+  width: 350px;
+  height: 400px;
+  margin-top: -70px;
 }
 
  textarea::placeholder{
@@ -109,8 +116,15 @@
 
       .form-container-img{
         flex-direction: column;
+        align-items: center;
+      }
+
+      .contact-image{
+        width: 350px;
+        height: 500px;
       }
   }
+
 
   @media (max-width:450px) {
        .textbox-container{
@@ -132,6 +146,11 @@
         height: 100px;
         width: 250px;
        }
+
+      .contact-image{
+        width: 250px;
+        height: 400px;
+      }
   }
 
 

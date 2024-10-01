@@ -32,7 +32,7 @@ const Header = () => {
                     <div className="right">
                         <div className="search-logo-input">
                            <div className="contain-search">
-                                <img src = "../magnifying.png" alt="search" className="search-logo"/>
+                                <img src = "/magnifying.png" alt="search" className="search-logo"/>
                                 <input type = "text" placeholder="Search..."/>
                            </div>
                         </div>
