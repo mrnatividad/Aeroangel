@@ -11,6 +11,7 @@ import NacaAirfoilWing from './components/DiscoverChildren/NacaAirfoilWing';
 import LightAircraft from './components/DiscoverChildren/TypeChildren/LightAircraft';
 import SailPane from './components/DiscoverChildren/TypeChildren/SailPane';
 import LowSpeedAircraft from './components/DiscoverChildren/TypeChildren/LowSpeedAircraft';
+import Item from './components/DiscoverChildren/TypeChildren/Item';
 
 function App() {
   return (
@@ -27,9 +28,18 @@ function App() {
     <Route index element = {<Discover />} />
     <Route path= 'type' >
     <Route index element = {<TypeOfAircrafts />} />
-    <Route path = 'lightaircraft' element = {<LightAircraft /> } />
-    <Route path = 'sailplane' element = {<SailPane />} />
-    <Route path = 'lowspeedaircraft' element = {<LowSpeedAircraft />} />
+    <Route path = 'lightaircraft' >
+        <Route index element = {<LightAircraft /> } />
+        <Route path = ':id' element = {<Item />} />
+    </Route>
+    <Route path = 'sailplane' >
+        <Route index element = {<SailPane />} />
+        <Route path = ':id' element = {<Item />} />
+    </Route>
+    <Route path = 'lowspeedaircraft'>
+        <Route index  element = {<LowSpeedAircraft />}  />
+        <Route path = ':id' element = {<Item />} />
+    </Route>
     </Route>
     <Route path = 'naca' element = {<NacaAirfoilWing />} />
     </Route>

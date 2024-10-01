@@ -62,7 +62,7 @@ const Header = () => {
                             </ul>
                         </div>
                         <div className="contain-search-menu">
-                                <img src = "../magnifying.png" alt="search" className="search-logo-mobile"/>
+                                <img src = "/magnifying.png" alt="search" className="search-logo-mobile"/>
                                 <input type = "text" placeholder="Search..."/>
                         </div>
                 </div>

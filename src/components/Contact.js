@@ -17,7 +17,7 @@ const Contact = () => {
         e.preventDefault();
         setLoading(true);
 
-        emailjs.init('1Fq6SQFCBm54wqMa-');
+        emailjs.init('XY9tbQtZmj7qzCiNn');
 
         let templateParams = {
             name: name,
@@ -25,7 +25,7 @@ const Contact = () => {
             message: message
           };
           
-          emailjs.send('service_gmz5s8k', 'template_wuk8i5a', templateParams).then(
+          emailjs.send('service_z25qt4r', 'template_oocgwwa', templateParams).then(
             (response) => {
               console.log('SUCCESS!', response.status, response.text);
               setName('');

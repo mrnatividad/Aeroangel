@@ -10,3 +10,97 @@
     text-align: center;
     font-weight: 100;
 }
+
+.title-with-arrow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow{
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.lightAircraft{
+  padding: 0 30px;
+}
+
+.box0 {
+  padding: 10px; 
+  text-align: center;
+}
+
+.box1 {
+  padding: 10px; 
+  text-align: center;
+ 
+}
+.box2 {
+  padding: 10px; 
+  text-align: center;
+}
+
+.box{
+  font-size: 30px;
+  cursor: pointer;
+  color: #C29244;
+}
+
+.box:hover{
+  color: #000;
+  color: #651229;
+}
+
+.title-body{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #FFFFFF;
+  padding: 50px;
+}
+
+
+@media (max-width: 800px){
+  .title-body{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .title{
+    font-size: 50px;
+  }
+
+  .arrow{
+    height: 100px;
+    width: 100px;
+  }
+  .box{
+    font-size: 25px;
+    cursor: pointer;
+    color: #C29244;
+  }
+}
+
+
+@media (max-width: 550px){
+  .title-body{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .title{
+    font-size: 30px;
+  }
+
+  .arrow{
+    height: 50px;
+    width: 50px;
+  }
+
+  .box{
+    font-size: 20px;
+    cursor: pointer;
+    color: #C29244;
+  }
+}
+
+
