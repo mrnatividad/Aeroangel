@@ -80,10 +80,10 @@ const Header = () => {
                 </div>
                 <div className={`sidebar ${click ? 'display' : ''}`}>
                     <i className="fas fa-times" onClick={handleToggleSidebar}></i>
-                   <div className='link'><a href="/resources/NCA-PDF.pdf" target="_blank" download>Download PDF</a></div>
-                   <div className='link'><Link to = "formula">Formula</Link> </div>
-                    <div className='link'><a href = "https://m-selig.ae.illinois.edu/ads/coord_database.html" rel="noopener noreferrer" target='_blank'>References</a></div>
-                    <div className='link'><a href="/resources/5-7.docx" target="_blank" download>NACA 5-7</a></div>
+                   <div className='link'><a href="/resources/NCA-PDF.pdf" target="_blank" download onClick={handleToggleSidebar}>Download PDF</a></div>
+                   <div className='link'><Link to = "formula" onClick={handleToggleSidebar}>Formula</Link> </div>
+                    <div className='link'><a href = "https://m-selig.ae.illinois.edu/ads/coord_database.html" rel="noopener noreferrer" target='_blank' onClick={handleToggleSidebar}>References</a></div>
+                    <div className='link'><a href="/resources/5-7.docx" target="_blank" download onClick={handleToggleSidebar}>NACA 5-7</a></div>
                 </div>
             </div>
             <div className='navbar-small'>
@@ -104,10 +104,10 @@ const Header = () => {
                 </div>
                 <div className={`sidebar ${click ? 'display' : ''}`}>
                     <i className="fas fa-times" onClick={handleToggleSidebar}></i>
-                    <div className='link'><a href="/resources/NCA-PDF.pdf" target="_blank" download>Download PDF</a></div>
-                    <div className='link'><Link to = "formula">Formula</Link> </div>
-                    <div className='link'><a href = "https://m-selig.ae.illinois.edu/ads/coord_database.html" target='_blank' rel="noopener noreferrer">References</a></div>
-                    <div className='link'><a href="/resources/5-7.docx" target="_blank" download>NACA 5-7</a></div>
+                    <div className='link'><a href="/resources/NCA-PDF.pdf" target="_blank" download onClick={handleToggleSidebar}>Download PDF</a></div>
+                    <div className='link'><Link to = "formula" onClick={handleToggleSidebar}>Formula</Link> </div>
+                    <div className='link'><a href = "https://m-selig.ae.illinois.edu/ads/coord_database.html" target='_blank' rel="noopener noreferrer" onClick={handleToggleSidebar}>References</a></div>
+                    <div className='link'><a href="/resources/5-7.docx" target="_blank" download onClick={handleToggleSidebar}>NACA 5-7</a></div>
                 </div>
                 <div className="contain-search-menu">
                     <img src="/magnifying.png" alt="search" className="search-logo-mobile" />
@@ -124,3 +124,24 @@ const Header = () => {
 }
 
 export default Header;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
