@@ -1,24 +1,30 @@
 import './item.css'
 import { useParams, useNavigate } from 'react-router-dom'
-import { sailpane } from '../../../data/data'
+import { lightAircraft } from '../../../data/data'
 import { useEffect, useState } from 'react'
 
-const Item = () => {
-    const navigate = useNavigate();
+const Item2 = () => {
+    const navigate = useNavigate()
     const {id} = useParams()
     const [naca, setNaca] = useState(null);
     const ID = Number(id)
 
     useEffect(() => {
-        let item = sailpane.filter(item => item.id === ID);
+        let item = lightAircraft.filter(item => item.id === ID);
         if (item.length > 0) { // Check if the array has any elements
             setNaca(item[0]); // Set the first item if found
         }
 
     }, [ID])
 
+    console.log(naca)
+
+    const handleNext = () => {
+        navigate(`/discover/type/lightaircraft/${ID + 1}`)
+    }
+
     const handleBack = () => {
-        navigate('/discover/type/sailplane')
+        navigate('/discover/type/lightaircraft')
     }
 
 
@@ -44,4 +50,4 @@ const Item = () => {
     )
 }
 
-export default Item
+export default Item2

@@ -34,6 +34,7 @@
   form{
     width: auto;
     height: auto;
+    text-align: center;
     
   }
 
@@ -48,9 +49,9 @@
 
 
 .contact-image{
-  width: 350px;
+  width: 550px;
   height: 400px;
-  margin-top: -70px;
+  margin-top: -50px;
 }
 
  textarea::placeholder{
@@ -95,15 +96,22 @@
   }
 
   button {
-    background-color: #651229; /* Dark background color */
-    color: white; /* Text color */
-    border: none; /* No border */
-    border-radius: 10px; /* Rounded corners */
-    padding: 10px 20px; /* Top/bottom and left/right padding */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s ease; /* Smooth transition */
+    background-color: #651229; 
+    color: white; 
+    border: none; 
+    border-radius: 10px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
     width: 100%;
+}
+
+@media (max-width:1030px){
+  .form-container-img{
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 
@@ -113,11 +121,6 @@
         font-size: 35px; 
         margin-bottom: 50px;
       } 
-
-      .form-container-img{
-        flex-direction: column;
-        align-items: center;
-      }
 
       .contact-image{
         width: 350px;

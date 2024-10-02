@@ -1,10 +1,9 @@
 import './Children.css';
 import { lowSpeed } from '../../../data/data';
 import { useNavigate } from 'react-router-dom'
+import Item from './Item';
 
 const LowSpeedAircraft = () => {
-
-
 
     const navigate = useNavigate();
 
@@ -14,7 +13,6 @@ const LowSpeedAircraft = () => {
     const arrow = () => {
         navigate('/discover/type/sailplane')
     }
-
 
     
     const chunkArray = (array, chunkSize) => {
@@ -30,17 +28,23 @@ const LowSpeedAircraft = () => {
     const seperated = chunkedLowSpeed.map((data, index) => (
         <div className={`box${index}`} key={index}>
             {data.map(item => (
-                <div className={`box inknut-antiqua-normal`} key={item.id}>{item.name}</div>
+                <div onClick = {() =>  navigate(`/discover/type/lowspeedaircraft/${item.id}`)} className={`box inknut-antiqua-normal`} key={item.id}>{item.name}
+                </div>
             ))}
         </div>
     ))
 
+    const handleBack = () => {
+        navigate('/discover/type')
+    }
+
 
     return (
         <div className="lightAircraft">
+             <div className='back-button' onClick={handleBack}><i class="fas fa-arrow-left"></i> Back</div>
             <div className="title-with-arrow">
                 <img src="/arrow-rotate.png" className="arrow" alt="arrow" onClick={arrowRotate}/>
-                <div className="title inknut-antiqua-normal">Low Speed Aircraft</div>
+                <div className="titles inknut-antiqua-normal">Low Speed Aircraft</div>
                 <img src="/arrow.png" className="arrow" alt="arrow" onClick={arrow} />
             </div>
             <div className="title-body">

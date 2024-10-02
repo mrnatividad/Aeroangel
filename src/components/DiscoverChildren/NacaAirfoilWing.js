@@ -1,12 +1,22 @@
-import './nacaAirfoilWing.css';
+import './nacaAirfoilWing.css'
+import { useNavigate } from 'react-router-dom'
 
-const NacaAirfoilWing = () => {
+const NacaAirFoil = () => {
+    const navigate = useNavigate();
+    
+    const handleBack = () => {
+        navigate('/discover')
+    }
+
     return (
-        <div className="nacaAirfoilWing">
-            <div className='title-airfoilWing'>Naca Airfoil Wing</div>
-            <h1>Hello World</h1>
+        <div className='nacaAirfoil-container'>
+            <div className='back-button' onClick={handleBack}><i class="fas fa-arrow-left"></i> Back</div>
+            <div className='title'>Naca Airfoil Wing</div>
+            <div className='item-container'>
+
+            </div>
         </div>
     )
 }
 
-export default NacaAirfoilWing
+export default NacaAirFoil

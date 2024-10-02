@@ -371,6 +371,323 @@ export const sailpane = [
 
 export const naca = [
     {
-       
-    }
+       id: 1,
+       name: "NACA 0006",
+       img1: '/NACA_PNG/NACA/0006.png',
+    },
+    {
+        id: 2,
+        name: "NACA 0009",
+        img1: '/NACA_PNG/NACA/0009.png',
+     },
+     {
+        id: 3,
+        name: "NACA 0012",
+        img1: '/NACA_PNG/NACA/0012.png',
+     },
+     {
+        id: 4,
+        name: "NACA 0015",
+        img1: '/NACA_PNG/NACA/0015.png',
+     },
+     {
+        id: 5,
+        name: "NACA 0018",
+        img1: '/NACA_PNG/NACA/0018.png',
+     },
+     {
+        id: 6,
+        name: "NACA 0021",
+        img1: '/NACA_PNG/NACA/0006.png',
+     },
+     {
+        id: 7,
+        name: "NACA 0025",
+        img1: '/NACA_PNG/NACA/0025.png',
+     },
+     {
+        id: 8,
+        name: "NACA 2212",
+        img1: '/NACA_PNG/NACA/2212.png',
+     },
+     {
+        id: 9,
+        name: "NACA 2306",
+        img1: '/NACA_PNG/NACA/2306.png',
+     },
+     {
+        id: 10,
+        name: "NACA 2309",
+        img1: '/NACA_PNG/NACA/2309.png',
+     },
+     {
+        id: 11,
+        name: "NACA 2312",
+        img1: '/NACA_PNG/NACA/2312.png',
+     },
+     {
+        id: 12,
+        name: "NACA 2315",
+        img1: '/NACA_PNG/NACA/2315.png',
+     },
+     {
+        id: 13,
+        name: "NACA 2406",
+        img1: '/NACA_PNG/NACA/2406.png',
+     },
+     {
+        id: 14,
+        name: "NACA 2409",
+        img1: '/NACA_PNG/NACA/2409.png',
+     },
+     {
+        id: 15,
+        name: "NACA 2412",
+        img1: '/NACA_PNG/NACA/2412.png',
+     },
+     {
+        id: 16,
+        name: "NACA 2415",
+        img1: '/NACA_PNG/NACA/2415.png',
+     },
+     {
+        id: 17,
+        name: "NACA 2418",
+        img1: '/NACA_PNG/NACA/2418.png',
+     },
+     {
+        id: 18,
+        name: "NACA 2421",
+        img1: '/NACA_PNG/NACA/2421.png',
+     },
+     {
+        id: 19,
+        name: "NACA 2506",
+        img1: '/NACA_PNG/NACA/2506.png',
+     },
+     {
+        id: 20,
+        name: "NACA 2509",
+        img1: '/NACA_PNG/NACA/2509.png',
+     },
+     {
+        id: 21,
+        name: "NACA 2512",
+        img1: '/NACA_PNG/NACA/2512.png',
+     },
+     {
+        id: 22,
+        name: "NACA 2515",
+        img1: '/NACA_PNG/NACA/2515.png',
+     },
+     {
+        id: 23,
+        name: "NACA 2518",
+        img1: '/NACA_PNG/NACA/2518.png',
+     },
+     {
+        id: 24,
+        name: "NACA 2521",
+        img1: '/NACA_PNG/NACA/2521.png',
+     },
+     {
+        id: 25,
+        name: "NACA 2612",
+        img1: '/NACA_PNG/NACA/2612.png',
+     },
+     {
+        id: 26,
+        name: "NACA 2712",
+        img1: '/NACA_PNG/NACA/2712.png',
+     },
+     {
+        id: 27,
+        name: "NACA 4212",
+        img1: '/NACA_PNG/NACA/4212.png',
+     },
+     {
+        id: 28,
+        name: "NACA 4306",
+        img1: '/NACA_PNG/NACA/4306.png',
+     },
+     {
+        id: 29,
+        name: "NACA 4309",
+        img1: '/NACA_PNG/NACA/4309.png',
+     },
+     {
+        id: 30,
+        name: "NACA 4312",
+        img1: '/NACA_PNG/NACA/4312.png',
+     },
+     {
+        id: 31,
+        name: "NACA 4315",
+        img1: '/NACA_PNG/NACA/4315.png',
+     },
+     {
+        id: 32,
+        name: "NACA 4318",
+        img1: '/NACA_PNG/NACA/4318.png',
+     },
+     {
+        id: 33,
+        name: "NACA 4321",
+        img1: '/NACA_PNG/NACA/4321.png',
+     },
+     {
+        id: 34,
+        name: "NACA 4406",
+        img1: '/NACA_PNG/NACA/4406.png',
+     },
+     {
+        id: 35,
+        name: "NACA 4409",
+        img1: '/NACA_PNG/NACA/4409.png',
+     },
+     {
+        id: 36,
+        name: "NACA 4412",
+        img1: '/NACA_PNG/NACA/4412.png',
+     },
+     {
+        id: 37,
+        name: "NACA 4415",
+        img1: '/NACA_PNG/NACA/4415.png',
+     },
+     {
+        id: 38,
+        name: "NACA 4418",
+        img1: '/NACA_PNG/NACA/4418.png',
+     },
+     {
+        id: 39,
+        name: "NACA 4421",
+        img1: '/NACA_PNG/NACA/4421.png',
+     },
+     {
+        id: 40,
+        name: "NACA 4506",
+        img1: '/NACA_PNG/NACA/4506.png',
+     },
+     {
+        id: 41,
+        name: "NACA 4509",
+        img1: '/NACA_PNG/NACA/4509.png',
+     },
+     {
+        id: 42,
+        name: "NACA 4512",
+        img1: '/NACA_PNG/NACA/4512.png',
+     },
+     {
+        id: 43,
+        name: "NACA 4515",
+        img1: '/NACA_PNG/NACA/4515.png',
+     },
+     {
+        id: 44,
+        name: "NACA 4518",
+        img1: '/NACA_PNG/NACA/4518.png',
+     },
+     {
+        id: 45,
+        name: "NACA 4521",
+        img1: '/NACA_PNG/NACA/4521.png',
+     },
+     {
+        id: 46,
+        name: "NACA 4612",
+        img1: '/NACA_PNG/NACA/4612.png',
+     },
+     {
+        id: 47,
+        name: "NACA 4712",
+        img1: '/NACA_PNG/NACA/4712.png',
+     },
+     {
+        id: 48,
+        name: "NACA 6212",
+        img1: '/NACA_PNG/NACA/6212.png',
+     },
+     {
+        id: 49,
+        name: "NACA 6306"
+     },
+     {
+        id: 50,
+        name: "NACA 6309"
+     },
+     {
+        id: 51,
+        name: "NACA 6312"
+     },
+     {
+        id: 52,
+        name: "NACA 6315"
+     },
+     {
+        id: 53,
+        name: "NACA 6318"
+     },
+     {
+        id: 54,
+        name: "NACA 6321"
+     },
+     {
+        id: 55,
+        name: "NACA 6406"
+     },
+     {
+        id: 56,
+        name: "NACA 6409"
+     },
+     {
+        id: 57,
+        name: "NACA 6412"
+     },
+     {
+        id: 58,
+        name: "NACA 6415"
+     },
+     {
+        id: 59,
+        name: "NACA 6418"
+     },
+     {
+        id: 60,
+        name: "NACA 6421"
+     },
+     {
+        id: 61,
+        name: "NACA 6506"
+     },
+     {
+        id: 62,
+        name: "NACA 6509"
+     },
+     {
+        id: 63,
+        name: "NACA 6512"
+     },
+     {
+        id: 64,
+        name: "NACA 6515"
+     },
+     {
+        id: 65,
+        name: "NACA 6518"
+     },
+     {
+        id: 66,
+        name: "NACA 6521"
+     },
+     {
+        id: 67,
+        name: "NACA 6612"
+     },
+     {
+        id: 68,
+        name: "NACA 6712"
+     },
 ]

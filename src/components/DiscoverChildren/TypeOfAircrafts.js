@@ -1,6 +1,5 @@
 import './typeAircrafts.css'
 import { useNavigate } from 'react-router-dom'
-import { lightAircraft } from '../../data/data';
 
 const TypeOfAircrafts = () => {
 
@@ -17,9 +16,14 @@ const TypeOfAircrafts = () => {
         const handleGlider = () => {
             navigate('/discover/type/sailplane')
         }
+
+        const handleBack = () => {
+            navigate('/discover')
+        }
     
     return (
         <div className='typeAircrafts'>
+            <div className='back-button' onClick={handleBack}><i class="fas fa-arrow-left"></i> Back</div>
             <div className='title-typeAircrafts inknut-antiqua-normal '>Type of Aircraft</div>
             <div className='three-types'>
 

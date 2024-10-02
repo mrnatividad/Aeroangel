@@ -26,6 +26,16 @@ body{
     font-style: normal;
   }
 
+  .back-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+
+
+  .back-button:hover{
+    color: #681e32;
+  }
 
   
 

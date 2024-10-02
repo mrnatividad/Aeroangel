@@ -23,15 +23,21 @@ const LightAircraft = () => {
     const seperated = chunkedLowSpeed.map((data, index) => (
         <div className={`box${index}`} key={index}>
             {data.map(item => (
-                <div className={`box inknut-antiqua-normal`} key={item.id}>{item.name}</div>
+                <div className={`box inknut-antiqua-normal`} key={item.id} onClick = {() =>  navigate(`/discover/type/lightaircraft/${item.id}`)}>{item.name}</div>
             ))}
         </div>
     ))
 
+    const handleBack = () => {
+        navigate('/discover/type')
+    }
+
+
     return (
         <div className="lightAircraft">
+             <div className='back-button' onClick={handleBack}><i class="fas fa-arrow-left"></i> Back</div>
            <div className='title-with-arrow'>
-                <div className="title inknut-antiqua-normal">Light Aircraft</div>
+                <div className="titles inknut-antiqua-normal">Light Aircraft</div>
                 <img src = "/arrow.png" className='arrow' alt='arrow' onClick={arrow}/>
            </div>
             <div className="title-body">
