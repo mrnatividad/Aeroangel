@@ -41,6 +41,7 @@ const Header = () => {
                                
                                 <li><NavLink to = "/quiz" className="inknut-antiqua-light">Quiz</NavLink></li>
                                 <li><NavLink to = "/" className="inknut-antiqua-light">Resources</NavLink></li>
+                                
                             </ul>
                         </div>
                     </div>
