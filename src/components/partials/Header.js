@@ -2,14 +2,20 @@ import './header.css';
 import { useNavigate } from "react-router-dom";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import {NavLink} from 'react-router-dom'
+import { useState, useEffect } from 'react';
 
 
 const Header = () => {
     const navigate = useNavigate();
+    const [text, setText] = useState('');
 
     const handleLogoClicked = () => {
         navigate('/');
     }
+
+    
+
+
     
     return (
         <>
