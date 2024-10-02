@@ -24,8 +24,8 @@ const Item3 = () => {
 
     const result = naca ? (
         <div className='item'>
-             <div className='back-button' onClick={handleBack}><i class="fas fa-arrow-left"></i> Back</div>
-            <div className='title inknut-antiqua-normal'>{naca.name}</div>
+             <div className='back-button' onClick={handleBack}><i className="fas fa-arrow-left"></i> Back</div>
+            <div className='title-item inknut-antiqua-normal'>{naca.name}</div>
             <div className='pictures'>
                 <img src = {`${naca.img}`} className='pic1' alt='picture1'/>
                 <img src = {`${naca.img2}`} className='pic2' alt='picture2'/>

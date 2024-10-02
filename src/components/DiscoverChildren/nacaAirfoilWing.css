@@ -1,0 +1,42 @@
+.titles{
+    font-size: 40px;
+}
+
+.inknut-antiqua-normal{
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.item-container{
+    display: grid;
+    background-color: #FFFF;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.nacaAirfoil-container{
+    padding: 20px;
+}
+
+.item{
+    font-size: 30px;
+    color: #C29244;
+    cursor: pointer;
+}
+
+.item:hover{
+    color: #651229;
+}
+
+@media (max-width:800px){
+    .item{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:550px){
+    .item{
+        font-size: 10px;
+    }
+}

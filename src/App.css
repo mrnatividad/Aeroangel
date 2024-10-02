@@ -30,11 +30,12 @@ body{
     padding: 10px 20px;
     cursor: pointer;
     font-size: 25px;
+    color: #681e32;
   }
 
 
   .back-button:hover{
-    color: #681e32;
+    color: #c3a212;
   }
 
   

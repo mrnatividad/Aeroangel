@@ -35,7 +35,7 @@ const LightAircraft = () => {
 
     return (
         <div className="lightAircraft">
-             <div className='back-button' onClick={handleBack}><i class="fas fa-arrow-left"></i> Back</div>
+             <div className='back-button' onClick={handleBack}><i className="fas fa-arrow-left"></i> Back</div>
            <div className='title-with-arrow'>
                 <div className="titles inknut-antiqua-normal">Light Aircraft</div>
                 <img src = "/arrow.png" className='arrow' alt='arrow' onClick={arrow}/>

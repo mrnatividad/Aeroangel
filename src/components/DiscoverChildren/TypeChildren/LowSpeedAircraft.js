@@ -41,7 +41,7 @@ const LowSpeedAircraft = () => {
 
     return (
         <div className="lightAircraft">
-             <div className='back-button' onClick={handleBack}><i class="fas fa-arrow-left"></i> Back</div>
+             <div className='back-button' onClick={handleBack}><i className="fas fa-arrow-left"></i> Back</div>
             <div className="title-with-arrow">
                 <img src="/arrow-rotate.png" className="arrow" alt="arrow" onClick={arrowRotate}/>
                 <div className="titles inknut-antiqua-normal">Low Speed Aircraft</div>

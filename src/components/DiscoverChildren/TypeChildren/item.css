@@ -4,8 +4,9 @@
     width: 100%;
 }
 
-.title{
+.title-item{
     font-size: 50px;
+    text-align: center;
 }
 
 .inknut-antiqua-normal{
@@ -46,7 +47,7 @@
 
 @media (max-width:1080px) {
 
-    .title{
+    .title-item{
         font-size: 30px;
     }
 
