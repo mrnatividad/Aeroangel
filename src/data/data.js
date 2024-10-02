@@ -13,7 +13,7 @@ export const lightAircraft = [
         name: "NACA 0012",
         img: "/NACA_PNG/Light_aircraft/0012.png",
         img2: "/GRAPH/Light_Aircraft/0012.png",
-        img3: "/SIMULATION/Light_Aircraft/0012.gif",
+        img3: "/SIMULATION/Light_Aircrafts/0012.gif",
         img4: "/TABLE/Light_Aircrafts/0012.png"
     },
     {
@@ -21,7 +21,7 @@ export const lightAircraft = [
         name: "NACA 0015",
         img: "/NACA_PNG/Light_aircraft/0015.png",
         img2: "/GRAPH/Light_Aircraft/0015.png",
-        img3: "/SIMULATION/Light_Aircraft/0015.gif",
+        img3: "/SIMULATION/Light_Aircrafts/0015.gif",
         img4: "/TABLE/Light_Aircrafts/0015.png"
     },
     {
@@ -29,7 +29,7 @@ export const lightAircraft = [
         name: "NACA 4412",
         img: "/NACA_PNG/Light_aircraft/4412.png",
         img2: "/GRAPH/Light_Aircraft/4412.png",
-        img3: "/SIMULATION/Light_Aircraft/4412.gif",
+        img3: "/SIMULATION/Light_Aircrafts/4412.gif",
         img4: "/TABLE/Light_Aircrafts/4412.png"
     },
     {
@@ -37,7 +37,7 @@ export const lightAircraft = [
         name: "NACA 4312",
         img: "/NACA_PNG/Light_aircraft/4312.png",
         img2: "/GRAPH/Light_Aircraft/4312.png",
-        img3: "/SIMULATION/Light_Aircraft/4312.gif",
+        img3: "/SIMULATION/Light_Aircrafts/4312.gif",
         img4: "/TABLE/Light_Aircrafts/4312.png"
     },
     {
@@ -45,7 +45,7 @@ export const lightAircraft = [
         name: "NACA 4415",
         img: "/NACA_PNG/Light_aircraft/4415.png",
         img2: "/GRAPH/Light_Aircraft/4415.png",
-        img3: "/SIMULATION/Light_Aircraft/4415.gif",
+        img3: "/SIMULATION/Light_Aircrafts/4415.gif",
         img4: "/TABLE/Light_Aircrafts/4415.png"
     },
     {
@@ -53,7 +53,7 @@ export const lightAircraft = [
         name: "NACA 2312",
         img: "/NACA_PNG/Light_aircraft/2312.png",
         img2: "/GRAPH/Light_Aircraft/2312.png",
-        img3: "/SIMULATION/Light_Aircraft/2312.gif",
+        img3: "/SIMULATION/Light_Aircrafts/2312.gif",
         img4: "/TABLE/Light_Aircrafts/2312.png"
     },
     {
@@ -61,7 +61,7 @@ export const lightAircraft = [
         name: "NACA 2212",
         img: "/NACA_PNG/Light_aircraft/2212.png",
         img2: "/GRAPH/Light_Aircraft/2212.png",
-        img3: "/SIMULATION/Light_Aircraft/2212.gif",
+        img3: "/SIMULATION/Light_Aircrafts/2212.gif",
         img4: "/TABLE/Light_Aircrafts/2212.png"
     },
     {
@@ -69,7 +69,7 @@ export const lightAircraft = [
         name: "NACA 2415",
         img: "/NACA_PNG/Light_aircraft/2415.png",
         img2: "/GRAPH/Light_Aircraft/2415.png",
-        img3: "/SIMULATION/Light_Aircraft/2415.gif",
+        img3: "/SIMULATION/Light_Aircrafts/2415.gif",
         img4: "/TABLE/Light_Aircrafts/2415.png"
     },
     {
@@ -77,7 +77,7 @@ export const lightAircraft = [
         name: "NACA 4309",
         img: "/NACA_PNG/Light_aircraft/4309.png",
         img2: "/GRAPH/Light_Aircraft/4309.png",
-        img3: "/SIMULATION/Light_Aircraft/4309.gif",
+        img3: "/SIMULATION/Light_Aircrafts/4309.gif",
         img4: "/TABLE/Light_Aircrafts/4309.png"
     },
     {
@@ -85,7 +85,7 @@ export const lightAircraft = [
         name: "NACA 4306",
         img: "/NACA_PNG/Light_aircraft/4306.png",
         img2: "/GRAPH/Light_Aircraft/4306.png",
-        img3: "/SIMULATION/Light_Aircraft/4306.gif",
+        img3: "/SIMULATION/Light_Aircrafts/4306.gif",
         img4: "/TABLE/Light_Aircrafts/4306.png"
     },
     {
@@ -93,7 +93,7 @@ export const lightAircraft = [
         name: "NACA 2309",
         img: "/NACA_PNG/Light_aircraft/2309.png",
         img2: "/GRAPH/Light_Aircraft/2309.png",
-        img3: "/SIMULATION/Light_Aircraft/2309.gif",
+        img3: "/SIMULATION/Light_Aircrafts/2309.gif",
         img4: "/TABLE/Light_Aircrafts/2309.png"
     },
     {
@@ -101,7 +101,7 @@ export const lightAircraft = [
         name: "NACA 2418",
         img: "/NACA_PNG/Light_aircraft/2418.png",
         img2: "/GRAPH/Light_Aircraft/2418.png",
-        img3: "/SIMULATION/Light_Aircraft/2418.gif",
+        img3: "/SIMULATION/Light_Aircrafts/2418.gif",
         img4: "/TABLE/Light_Aircrafts/2418.png"
     },
     {
@@ -109,7 +109,7 @@ export const lightAircraft = [
         name: "NACA 2409",
         img: "/NACA_PNG/Light_aircraft/2409.png",
         img2: "/GRAPH/Light_Aircraft/2409.png",
-        img3: "/SIMULATION/Light_Aircraft/2409.gif",
+        img3: "/SIMULATION/Light_Aircrafts/2409.gif",
         img4: "/TABLE/Light_Aircrafts/2409.png"
     },
     {
@@ -117,7 +117,7 @@ export const lightAircraft = [
         name: "NACA 0009",
         img: "/NACA_PNG/Light_aircraft/0009.png",
         img2: "/GRAPH/Light_Aircraft/0009.png",
-        img3: "/SIMULATION/Light_Aircraft/0009.gif",
+        img3: "/SIMULATION/Light_Aircrafts/0009.gif",
         img4: "/TABLE/Light_Aircrafts/0009.png"
     },
 ]
