@@ -29,8 +29,16 @@ body{
   .back-button {
     padding: 10px 20px;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 20px;
     color: #681e32;
+    width: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  i {
+    margin: 5px;
+    cursor: pointer;
   }
 
 

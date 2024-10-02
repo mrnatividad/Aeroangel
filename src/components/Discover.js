@@ -6,11 +6,11 @@ const Discover = () => {
     const navigate = useNavigate();
 
     const handleType = () => {
-        navigate('/discover/type'); // Navigate to /discover/type
+        navigate('/discover/type'); 
     };
     
     const handleNaca = () => {
-        navigate('/discover/naca'); // Navigate to /discover/naca
+        navigate('/discover/airfoil'); 
     };
 
     return (

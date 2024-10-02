@@ -1,0 +1,39 @@
+.formula{
+    padding: 20px;
+    text-align: center;
+}
+
+.title-formula{
+    font-size: 40px;
+    color: #651229;
+}
+
+.inknut-antiqua-normal{
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.formula-pic{
+    width: 400px;
+    height: 300px;
+}
+
+.formula-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+@media (max-width:800px) {
+
+    .formula-pic{
+        width: 200px;
+        height: 300px;
+    }
+    
+
+}

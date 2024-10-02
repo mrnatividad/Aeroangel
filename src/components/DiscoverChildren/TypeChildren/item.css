@@ -56,6 +56,30 @@
     }
 
     .pic1{
+        width: 500px;
+        height: 250px;
+      
+    }
+    .pic2{
+        width: 500px;
+        height: 250px;
+     
+    }
+    .pic3{
+        width: 500px;
+        height: 250px;
+       
+    }
+    .pic4{
+        width: 500px;
+        height: 200px;
+    
+    }
+
+}
+
+@media (max-width:580px) {
+    .pic1{
         width: 300px;
         height: 250px;
       
@@ -75,5 +99,4 @@
         height: 200px;
     
     }
-
 }

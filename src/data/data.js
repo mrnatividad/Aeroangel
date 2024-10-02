@@ -373,321 +373,308 @@ export const naca = [
     {
        id: 1,
        name: "NACA 0006",
-       img1: '/NACA_PNG/NACA/0006.png',
+       img1: '/Naca_Airfoil_Wing/Graphs/0006.png',
+       img2: '/Naca_Airfoil_Wing/Shapes/0006.png',
+       img3: '/Naca_Airfoil_Wing/Tables/0006.png'
     },
     {
         id: 2,
-        name: "NACA 0009",
-        img1: '/NACA_PNG/NACA/0009.png',
+        name: "NACA 0018",
+        img1: '/Naca_Airfoil_Wing/Graphs/0018.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/0018.png',
+          img3: '/Naca_Airfoil_Wing/Tables/0018.png'
      },
      {
         id: 3,
-        name: "NACA 0012",
-        img1: '/NACA_PNG/NACA/0012.png',
+        name: "NACA 0021",
+        img1: '/Naca_Airfoil_Wing/Graphs/0021.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/0021.png',
+          img3: '/Naca_Airfoil_Wing/Tables/0021.png'
      },
      {
         id: 4,
-        name: "NACA 0015",
-        img1: '/NACA_PNG/NACA/0015.png',
+        name: "NACA 0025",
+        img1: '/Naca_Airfoil_Wing/Graphs/0025.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/0025.png',
+          img3: '/Naca_Airfoil_Wing/Tables/0025.png'
      },
+
      {
         id: 5,
-        name: "NACA 0018",
-        img1: '/NACA_PNG/NACA/0018.png',
+        name: "NACA 2421",
+        img1: '/Naca_Airfoil_Wing/Graphs/2421.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/2421.png',
+          img3: '/Naca_Airfoil_Wing/Tables/2421.png'
      },
      {
         id: 6,
-        name: "NACA 0021",
-        img1: '/NACA_PNG/NACA/0006.png',
+        name: "NACA 2506",
+        img1: '/Naca_Airfoil_Wing/Graphs/2506.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/2506.png',
+          img3: '/Naca_Airfoil_Wing/Tables/2506.png'
      },
      {
         id: 7,
-        name: "NACA 0025",
-        img1: '/NACA_PNG/NACA/0025.png',
+        name: "NACA 2509",
+        img1: '/Naca_Airfoil_Wing/Graphs/2509.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/2509.png',
+          img3: '/Naca_Airfoil_Wing/Tables/2509.png'
      },
      {
         id: 8,
-        name: "NACA 2212",
-        img1: '/NACA_PNG/NACA/2212.png',
+        name: "NACA 2518",
+        img1: '/Naca_Airfoil_Wing/Graphs/2518.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/2518.png',
+          img3: '/Naca_Airfoil_Wing/Tables/2518.png'
      },
      {
         id: 9,
-        name: "NACA 2306",
-        img1: '/NACA_PNG/NACA/2306.png',
+        name: "NACA 2521",
+        img1: '/Naca_Airfoil_Wing/Graphs/2521.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/2521.png',
+          img3: '/Naca_Airfoil_Wing/Tables/2521.png'
      },
      {
         id: 10,
-        name: "NACA 2309",
-        img1: '/NACA_PNG/NACA/2309.png',
+        name: "NACA 2621",
+        img1: '/Naca_Airfoil_Wing/Graphs/2621.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/2621.png',
+          img3: '/Naca_Airfoil_Wing/Tables/2621.png'
      },
      {
         id: 11,
-        name: "NACA 2312",
-        img1: '/NACA_PNG/NACA/2312.png',
+        name: "NACA 2712",
+        img1: '/Naca_Airfoil_Wing/Graphs/2712.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/2712.png',
+          img3: '/Naca_Airfoil_Wing/Tables/2712.png'
      },
      {
         id: 12,
-        name: "NACA 2315",
-        img1: '/NACA_PNG/NACA/2315.png',
+        name: "NACA 4212",
+        img1: '/Naca_Airfoil_Wing/Graphs/4212.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/4212.png',
+          img3: '/Naca_Airfoil_Wing/Tables/4212.png'
      },
      {
         id: 13,
-        name: "NACA 2406",
-        img1: '/NACA_PNG/NACA/2406.png',
+        name: "NACA 4318",
+        img1: '/Naca_Airfoil_Wing/Graphs/4318.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/4212.png',
+          img3: '/Naca_Airfoil_Wing/Tables/4212.png'
      },
      {
         id: 14,
-        name: "NACA 2409",
-        img1: '/NACA_PNG/NACA/2409.png',
+        name: "NACA 4321",
+        img1: '/Naca_Airfoil_Wing/Graphs/4321.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/4321.png',
+          img3: '/Naca_Airfoil_Wing/Tables/4321.png'
      },
      {
         id: 15,
-        name: "NACA 2412",
-        img1: '/NACA_PNG/NACA/2412.png',
+        name: "NACA 4421",
+        img1: '/Naca_Airfoil_Wing/Graphs/4421.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/4421.png',
+          img3: '/Naca_Airfoil_Wing/Tables/4421.png'
      },
      {
         id: 16,
-        name: "NACA 2415",
-        img1: '/NACA_PNG/NACA/2415.png',
+        name: "NACA 4506",
+        img1: '/Naca_Airfoil_Wing/Graphs/4506.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/4506.png',
+          img3: '/Naca_Airfoil_Wing/Tables/4506.png'
      },
      {
         id: 17,
-        name: "NACA 2418",
-        img1: '/NACA_PNG/NACA/2418.png',
+        name: "NACA 4509",
+        img1: '/Naca_Airfoil_Wing/Graphs/4509.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/4509.png',
+          img3: '/Naca_Airfoil_Wing/Tables/4509.png'
      },
      {
         id: 18,
-        name: "NACA 2421",
-        img1: '/NACA_PNG/NACA/2421.png',
+        name: "NACA 4512",
+        img1: '/Naca_Airfoil_Wing/Graphs/4512.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/4512.png',
+          img3: '/Naca_Airfoil_Wing/Tables/4512.png'
      },
+
      {
         id: 19,
-        name: "NACA 2506",
-        img1: '/NACA_PNG/NACA/2506.png',
+        name: "NACA 4515",
+        img1: '/Naca_Airfoil_Wing/Graphs/4515.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/4515.png',
+          img3: '/Naca_Airfoil_Wing/Tables/4515.png'
      },
+
      {
         id: 20,
-        name: "NACA 2509",
-        img1: '/NACA_PNG/NACA/2509.png',
+        name: "NACA 4518",
+        img1: '/Naca_Airfoil_Wing/Graphs/4518.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/4518.png',
+          img3: '/Naca_Airfoil_Wing/Tables/4518.png'
      },
      {
         id: 21,
-        name: "NACA 2512",
-        img1: '/NACA_PNG/NACA/2512.png',
+        name: "NACA 4521",
+        img1: '/Naca_Airfoil_Wing/Graphs/4521.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/4521.png',
+          img3: '/Naca_Airfoil_Wing/Tables/4521.png'
      },
      {
         id: 22,
-        name: "NACA 2515",
-        img1: '/NACA_PNG/NACA/2515.png',
+        name: "NACA 4612",
+        img1: '/Naca_Airfoil_Wing/Graphs/4612.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/4612.png',
+          img3: '/Naca_Airfoil_Wing/Tables/4612.png'
      },
      {
         id: 23,
-        name: "NACA 2518",
-        img1: '/NACA_PNG/NACA/2518.png',
+        name: "NACA 4712",
+        img1: '/Naca_Airfoil_Wing/Graphs/4712.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/4712.png',
+          img3: '/Naca_Airfoil_Wing/Tables/4712.png'
      },
      {
         id: 24,
-        name: "NACA 2521",
-        img1: '/NACA_PNG/NACA/2521.png',
+        name: "NACA 6212",
+        img1: '/Naca_Airfoil_Wing/Graphs/6212.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6212.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6212.png'
      },
      {
         id: 25,
-        name: "NACA 2612",
-        img1: '/NACA_PNG/NACA/2612.png',
+        name: "NACA 6306",
+        img1: '/Naca_Airfoil_Wing/Graphs/6306.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6306.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6306.png'
      },
      {
         id: 26,
-        name: "NACA 2712",
-        img1: '/NACA_PNG/NACA/2712.png',
+        name: "NACA 6309",
+        img1: '/Naca_Airfoil_Wing/Graphs/6309.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6309.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6309.png'
      },
+
      {
         id: 27,
-        name: "NACA 4212",
-        img1: '/NACA_PNG/NACA/4212.png',
+        name: "NACA 6312",
+        img1: '/Naca_Airfoil_Wing/Graphs/6312.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6312.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6312.png'
      },
      {
         id: 28,
-        name: "NACA 4306",
-        img1: '/NACA_PNG/NACA/4306.png',
+        name: "NACA 6315",
+        img1: '/Naca_Airfoil_Wing/Graphs/6315.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6315.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6315.png'
      },
      {
         id: 29,
-        name: "NACA 4309",
-        img1: '/NACA_PNG/NACA/4309.png',
+        name: "NACA 6318",
+        img1: '/Naca_Airfoil_Wing/Graphs/6318.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6318.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6318.png'
      },
      {
         id: 30,
-        name: "NACA 4312",
-        img1: '/NACA_PNG/NACA/4312.png',
+        name: "NACA 6321",
+        img1: '/Naca_Airfoil_Wing/Graphs/6321.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6321.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6321.png'
      },
      {
         id: 31,
-        name: "NACA 4315",
-        img1: '/NACA_PNG/NACA/4315.png',
+        name: "NACA 6406",
+        img1: '/Naca_Airfoil_Wing/Graphs/6406.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6406.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6406.png'
      },
+
      {
         id: 32,
-        name: "NACA 4318",
-        img1: '/NACA_PNG/NACA/4318.png',
+        name: "NACA 6409",
+        img1: '/Naca_Airfoil_Wing/Graphs/6409.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6409.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6409.png'
      },
      {
         id: 33,
-        name: "NACA 4321",
-        img1: '/NACA_PNG/NACA/4321.png',
+        name: "NACA 6412",
+        img1: '/Naca_Airfoil_Wing/Graphs/6412.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6412.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6412.png'
      },
      {
         id: 34,
-        name: "NACA 4406",
-        img1: '/NACA_PNG/NACA/4406.png',
+        name: "NACA 6415",
+        img1: '/Naca_Airfoil_Wing/Graphs/6415.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6415.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6415.png'
      },
      {
         id: 35,
-        name: "NACA 4409",
-        img1: '/NACA_PNG/NACA/4409.png',
+        name: "NACA 6418",
+        img1: '/Naca_Airfoil_Wing/Graphs/6418.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6418.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6418.png'
      },
      {
         id: 36,
-        name: "NACA 4412",
-        img1: '/NACA_PNG/NACA/4412.png',
+        name: "NACA 6506",
+        img1: '/Naca_Airfoil_Wing/Graphs/6506.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6506.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6506.png'
      },
      {
         id: 37,
-        name: "NACA 4415",
-        img1: '/NACA_PNG/NACA/4415.png',
+        name: "NACA 6509",
+        img1: '/Naca_Airfoil_Wing/Graphs/6509.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6509.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6509.png'
      },
      {
         id: 38,
-        name: "NACA 4418",
-        img1: '/NACA_PNG/NACA/4418.png',
+        name: "NACA 6512",
+        img1: '/Naca_Airfoil_Wing/Graphs/6512.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6512.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6512.png'
      },
      {
         id: 39,
-        name: "NACA 4421",
-        img1: '/NACA_PNG/NACA/4421.png',
+        name: "NACA 6515",
+        img1: '/Naca_Airfoil_Wing/Graphs/6515.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6515.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6515.png'
      },
      {
         id: 40,
-        name: "NACA 4506",
-        img1: '/NACA_PNG/NACA/4506.png',
+        name: "NACA 6518",
+        img1: '/Naca_Airfoil_Wing/Graphs/6518.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6518.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6518.png'
      },
      {
         id: 41,
-        name: "NACA 4509",
-        img1: '/NACA_PNG/NACA/4509.png',
+        name: "NACA 6521",
+        img1: '/Naca_Airfoil_Wing/Graphs/6521.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6521.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6521.png'
      },
      {
         id: 42,
-        name: "NACA 4512",
-        img1: '/NACA_PNG/NACA/4512.png',
+        name: "NACA 6612",
+        img1: '/Naca_Airfoil_Wing/Graphs/6612.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6612.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6612.png'
      },
      {
         id: 43,
-        name: "NACA 4515",
-        img1: '/NACA_PNG/NACA/4515.png',
+        name: "NACA 6712",
+        img1: '/Naca_Airfoil_Wing/Graphs/6712.png',
+        img2: '/Naca_Airfoil_Wing/Shapes/6712.png',
+          img3: '/Naca_Airfoil_Wing/Tables/6712.png'
      },
-     {
-        id: 44,
-        name: "NACA 4518",
-        img1: '/NACA_PNG/NACA/4518.png',
-     },
-     {
-        id: 45,
-        name: "NACA 4521",
-        img1: '/NACA_PNG/NACA/4521.png',
-     },
-     {
-        id: 46,
-        name: "NACA 4612",
-        img1: '/NACA_PNG/NACA/4612.png',
-     },
-     {
-        id: 47,
-        name: "NACA 4712",
-        img1: '/NACA_PNG/NACA/4712.png',
-     },
-     {
-        id: 48,
-        name: "NACA 6212",
-        img1: '/NACA_PNG/NACA/6212.png',
-     },
-     {
-        id: 49,
-        name: "NACA 6306"
-     },
-     {
-        id: 50,
-        name: "NACA 6309"
-     },
-     {
-        id: 51,
-        name: "NACA 6312"
-     },
-     {
-        id: 52,
-        name: "NACA 6315"
-     },
-     {
-        id: 53,
-        name: "NACA 6318"
-     },
-     {
-        id: 54,
-        name: "NACA 6321"
-     },
-     {
-        id: 55,
-        name: "NACA 6406"
-     },
-     {
-        id: 56,
-        name: "NACA 6409"
-     },
-     {
-        id: 57,
-        name: "NACA 6412"
-     },
-     {
-        id: 58,
-        name: "NACA 6415"
-     },
-     {
-        id: 59,
-        name: "NACA 6418"
-     },
-     {
-        id: 60,
-        name: "NACA 6421"
-     },
-     {
-        id: 61,
-        name: "NACA 6506"
-     },
-     {
-        id: 62,
-        name: "NACA 6509"
-     },
-     {
-        id: 63,
-        name: "NACA 6512"
-     },
-     {
-        id: 64,
-        name: "NACA 6515"
-     },
-     {
-        id: 65,
-        name: "NACA 6518"
-     },
-     {
-        id: 66,
-        name: "NACA 6521"
-     },
-     {
-        id: 67,
-        name: "NACA 6612"
-     },
-     {
-        id: 68,
-        name: "NACA 6712"
-     },
+     
 ]

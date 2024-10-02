@@ -3,25 +3,31 @@ import { useNavigate } from 'react-router-dom'
 import { naca } from '../../data/data';
 import { useEffect, useState } from 'react';
 
-const NacaAirFoil = () => {
+const NacaAirFoilWing = () => {
     const navigate = useNavigate();
-    const [item, setItem] = useState(null)
+    const [items, setItems] = useState([]);
 
     const handleBack = () => {
         navigate('/discover')
     }
 
     useEffect(() => {
-           const items = naca.map(item => (
-            <div className='item inknut-antiqua-normal'  key={item.id}>{item.name}</div>
-           ))
-
-          if(items){
-            setItem(items)
-          }
-    }, [])
+        console.log('NACA Data:', naca);
+        setItems(naca); 
+    }, []);
 
 
+
+    const itemComponents = items.map(item => (
+        
+        <div 
+            className='item inknut-antiqua-normal' 
+            key={item.id} 
+            onClick={() => navigate(`/discover/airfoil/${item.id}`)} // Ensure this path is correct
+        >
+            {item.name}
+        </div>
+    ));
 
 
     return (
@@ -29,10 +35,10 @@ const NacaAirFoil = () => {
             <div className='back-button' onClick={handleBack}><i className="fas fa-arrow-left"></i> Back</div>
             <div className='titles inknut-antiqua-normal'>Naca Airfoil Wing</div>
             <div className='item-container inknut-antiqua-normal'>
-                {item ? item : <p>Loading...</p>}
+                {itemComponents.length > 0 ? itemComponents : <p>Loading...</p>}
             </div>
         </div>
     )
 }
 
-export default NacaAirFoil
+export default NacaAirFoilWing
