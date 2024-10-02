@@ -38,7 +38,7 @@ const TypeOfAircrafts = () => {
                      <div className='gradient-overlay'></div>
                 </div>
                 <div className='card' onClick={handleGlider}>
-                     <h2 className='title-card'>SailPane</h2>
+                     <h2 className='title-card'>Sailplane</h2>
                      <img src = "/Gliders.jpg" className='discover-image' alt='gliders'/>
                      <div className='gradient-overlay'></div>
                 </div>
