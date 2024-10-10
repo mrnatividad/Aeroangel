@@ -18,6 +18,9 @@ import AirFoil from './components/DiscoverChildren/NacaAirfoil/Airfoil';
 import Formula from './components/Formula';
 
 function App() {
+
+  
+
   return (
   <>
   <Routes>

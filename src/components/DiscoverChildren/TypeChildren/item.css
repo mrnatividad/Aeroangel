@@ -17,24 +17,32 @@
 
 .pic1{
     width: 500px;
-    height: 250px;
+    height: 300px;
   
 }
 .pic2{
     width: 500px;
-    height: 250px;
+    height: 300px;
  
 }
 .pic3{
     width: 500px;
-    height: 250px;
+    height: 300px;
    
 }
 .pic4{
     width: 500px;
-    height: 250px;
-
+    height: 300px;
 }
+
+.pic1:hover, 
+.pic2:hover, 
+.pic3:hover, 
+.pic4:hover {
+    box-shadow: 0px 0px 2px 2px grey;
+    transform: scale(1.2)
+}
+
 
 .pictures{
     display: grid;
@@ -99,4 +107,13 @@
         height: 200px;
     
     }
+
+    .pic1:hover, 
+    .pic2:hover, 
+    .pic3:hover, 
+    .pic4:hover {
+        box-shadow: 0px 0px 2px 2px grey;
+        transform: scale(1.1)
+    }
+
 }
