@@ -35,10 +35,10 @@
     height: 300px;
 }
 
-.pic1:hover, 
-.pic2:hover, 
-.pic3:hover, 
-.pic4:hover {
+.pic1:active, 
+.pic2:active, 
+.pic3:active, 
+.pic4:active {
     box-shadow: 0px 0px 2px 2px grey;
     transform: scale(1.2)
 }
@@ -108,10 +108,10 @@
     
     }
 
-    .pic1:hover, 
-    .pic2:hover, 
-    .pic3:hover, 
-    .pic4:hover {
+    .pic1:active, 
+    .pic2:active, 
+    .pic3:active, 
+    .pic4:active {
         box-shadow: 0px 0px 2px 2px grey;
         transform: scale(1.1)
     }
