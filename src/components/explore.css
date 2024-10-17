@@ -1,0 +1,39 @@
+.explore{
+    padding: 20px;
+    text-align: center;
+}
+
+.title-explore{
+    font-size: 40px;
+    color: #651229;
+}
+
+.inknut-antiqua-normal{
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.explore-pic{
+    width: 700px;
+    height: 500px;
+}
+
+.explore-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+@media (max-width:800px) {
+
+    .explore-pic{
+        width: 200px;
+        height: 300px;
+    }
+
+
+}

@@ -56,6 +56,7 @@ const Header = () => {
                             <li><NavLink to="/" className="inknut-antiqua-light">Project</NavLink></li>
                             <li><NavLink to="/contact" className="inknut-antiqua-light">Contact</NavLink></li>
                             <li><NavLink to="/about" className="inknut-antiqua-light">About</NavLink></li>
+                            <li><NavLink to="/explore" className="inknut-antiqua-light">Explore</NavLink></li>
                         </ul>
                     </div>
                 </div>
@@ -84,6 +85,7 @@ const Header = () => {
                    <div className='link'><Link to = "formula" onClick={handleToggleSidebar}>Formula</Link> </div>
                     <div className='link'><a href = "https://m-selig.ae.illinois.edu/ads/coord_database.html" rel="noopener noreferrer" target='_blank' onClick={handleToggleSidebar}>References</a></div>
                     <div className='link'><a href="/resources/5-7.docx" target="_blank" download onClick={handleToggleSidebar}>NACA 5-7</a></div>
+                    <div className='link'><a href = "https://drive.google.com/drive/folders/1G2Kw6LZoprZajJnQHQ8tQ-5PptG_GC-u?usp=sharing" rel="noopener noreferrer" target='_blank' onClick={handleToggleSidebar}>Airfoil Coordinates</a></div>
                 </div>
             </div>
             <div className='navbar-small'>

@@ -16,6 +16,7 @@ import Item3 from './components/DiscoverChildren/TypeChildren/Item3';
 import NacaAirFoilWing from './components/DiscoverChildren/NacaAirfoilWing';
 import AirFoil from './components/DiscoverChildren/NacaAirfoil/Airfoil';
 import Formula from './components/Formula';
+import Explore from './components/explore';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
     <Route path = "formula" element = {<Formula />} />
     <Route path = "quiz" element = {<Quiz />} />
     <Route path = "contact" element = {<Contact />} />
+    <Route path = "explore" element = {<Explore />} />
 
     <Route path = "discover" >
     <Route index element = {<Discover />} />
