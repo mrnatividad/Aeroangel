@@ -6,12 +6,13 @@ export const lightAircraft = [
         img: "/NACA_PNG/Light_aircraft/2412.png",
         img2: "/GRAPH/Light_Aircraft/2412A.png",
         img3: "/SIMULATION/Light_Aircrafts/2412.gif",
-        img4: "/TABLE/Light_Aircrafts/2412.png"
+        img4: "/TABLE/Light_Aircrafts/2412.png",
+        img5: "/PRESSURE/LIGHT/2412.JPG"
     },
     {
         id: 2,
         name: "NACA 0012",
-        img: "/NACA_PNG/Light_aircraft/0012.png",
+        img: "/NACA_PNG/Light_aircraft/0012A.png",
         img2: "/GRAPH/Light_Aircraft/0012A.png",
         img3: "/SIMULATION/Light_Aircrafts/0012.gif",
         img4: "/TABLE/Light_Aircrafts/0012.png"
