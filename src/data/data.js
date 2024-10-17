@@ -3,122 +3,122 @@ export const lightAircraft = [
     {
         id: 1,
         name: "NACA 2412",
-        img: "/NACA_PNG/Light_aircraft/2412A.jpg",
+        img: "/NACA_PNG/Light_aircraft/2412A.png",
         img2: "/GRAPH/Light_Aircraft/2412A.png",
         img3: "/SIMULATION/Light_Aircrafts/2412.gif",
-        img4: "/TABLE/Light_Aircrafts/2412A.jpg"
+        img4: "/TABLE/Light_Aircrafts/2412A.JPG"
     },
     {
         id: 2,
         name: "NACA 0012",
-        img: "/NACA_PNG/Light_aircraft/0012B.jpg",
+        img: "/NACA_PNG/Light_aircraft/0012B.png",
         img2: "/GRAPH/Light_Aircraft/0012A.png",
         img3: "/SIMULATION/Light_Aircrafts/0012.gif",
-        img4: "/TABLE/Light_Aircrafts/0012A.jpg"
+        img4: "/TABLE/Light_Aircrafts/0012A.JPG"
     },
     {
         id: 3,
         name: "NACA 0015",
-        img: "/NACA_PNG/Light_aircraft/0015A.jpg",
+        img: "/NACA_PNG/Light_aircraft/0015A.png",
         img2: "/GRAPH/Light_Aircraft/0015A.png",
         img3: "/SIMULATION/Light_Aircrafts/0015.gif",
-        img4: "/TABLE/Light_Aircrafts/0015A.jpg"
+        img4: "/TABLE/Light_Aircrafts/0015A.JPG"
     },
     {
         id: 4,
         name: "NACA 4412",
-        img: "/NACA_PNG/Light_aircraft/4412A.jpg",
+        img: "/NACA_PNG/Light_aircraft/4412A.png",
         img2: "/GRAPH/Light_Aircraft/4412A.png",
         img3: "/SIMULATION/Light_Aircrafts/4412.gif",
-        img4: "/TABLE/Light_Aircrafts/4412A.jpg"
+        img4: "/TABLE/Light_Aircrafts/4412A.JPG"
     },
     {
         id: 5,
         name: "NACA 4312",
-        img: "/NACA_PNG/Light_aircraft/4312A.jpg",
+        img: "/NACA_PNG/Light_aircraft/4312A.png",
         img2: "/GRAPH/Light_Aircraft/4312A.png",
         img3: "/SIMULATION/Light_Aircrafts/4312.gif",
-        img4: "/TABLE/Light_Aircrafts/4312A.jpg"
+        img4: "/TABLE/Light_Aircrafts/4312A.JPG"
     },
     {
         id: 6,
         name: "NACA 4415",
-        img: "/NACA_PNG/Light_aircraft/4415A.jpg",
+        img: "/NACA_PNG/Light_aircraft/4415A.png",
         img2: "/GRAPH/Light_Aircraft/4415A.png",
         img3: "/SIMULATION/Light_Aircrafts/4415.gif",
-        img4: "/TABLE/Light_Aircrafts/4415A.jpg"
+        img4: "/TABLE/Light_Aircrafts/4415A.JPG"
     },
     {
         id: 7,
         name: "NACA 2312",
-        img: "/NACA_PNG/Light_aircraft/2312A.jpg",
+        img: "/NACA_PNG/Light_aircraft/2312A.png",
         img2: "/GRAPH/Light_Aircraft/2312A.png",
         img3: "/SIMULATION/Light_Aircrafts/2312.gif",
-        img4: "/TABLE/Light_Aircrafts/2312A.jpg"
+        img4: "/TABLE/Light_Aircrafts/2312A.JPG"
     },
     {
         id: 8,
         name: "NACA 2212",
-        img: "/NACA_PNG/Light_aircraft/2212A.jpg",
+        img: "/NACA_PNG/Light_aircraft/2212A.png",
         img2: "/GRAPH/Light_Aircraft/2212A.png",
         img3: "/SIMULATION/Light_Aircrafts/2212.gif",
-        img4: "/TABLE/Light_Aircrafts/2212A.jpg"
+        img4: "/TABLE/Light_Aircrafts/2212A.JPG"
     },
     {
         id: 9,
         name: "NACA 2415",
-        img: "/NACA_PNG/Light_aircraft/2415A.jpg",
+        img: "/NACA_PNG/Light_aircraft/2415A.png",
         img2: "/GRAPH/Light_Aircraft/2415A.png",
         img3: "/SIMULATION/Light_Aircrafts/2415.gif",
-        img4: "/TABLE/Light_Aircrafts/2415A.jpg"
+        img4: "/TABLE/Light_Aircrafts/2415A.JPG"
     },
     {
         id: 10,
         name: "NACA 4309",
-        img: "/NACA_PNG/Light_aircraft/4309A.jpg",
+        img: "/NACA_PNG/Light_aircraft/4309A.png",
         img2: "/GRAPH/Light_Aircraft/4309A.png",
         img3: "/SIMULATION/Light_Aircrafts/4309.gif",
-        img4: "/TABLE/Light_Aircrafts/4309A.jpg"
+        img4: "/TABLE/Light_Aircrafts/4309A.JPG"
     },
     {
         id: 11,
         name: "NACA 4306",
-        img: "/NACA_PNG/Light_aircraft/4306A.jpg",
+        img: "/NACA_PNG/Light_aircraft/4306A.png",
         img2: "/GRAPH/Light_Aircraft/4306A.png",
         img3: "/SIMULATION/Light_Aircrafts/4306.gif",
-        img4: "/TABLE/Light_Aircrafts/4306A.jpg"
+        img4: "/TABLE/Light_Aircrafts/4306A.JPG"
     },
     {
         id: 12,
         name: "NACA 2309",
-        img: "/NACA_PNG/Light_aircraft/2309A.jpg",
+        img: "/NACA_PNG/Light_aircraft/2309A.png",
         img2: "/GRAPH/Light_Aircraft/2309A.png",
         img3: "/SIMULATION/Light_Aircrafts/2309.gif",
-        img4: "/TABLE/Light_Aircrafts/2309A.jpg"
+        img4: "/TABLE/Light_Aircrafts/2309A.JPG"
     },
     {
         id: 13,
         name: "NACA 2418",
-        img: "/NACA_PNG/Light_aircraft/2418A.jpg",
+        img: "/NACA_PNG/Light_aircraft/2418A.png",
         img2: "/GRAPH/Light_Aircraft/2418A.png",
         img3: "/SIMULATION/Light_Aircrafts/2418.gif",
-        img4: "/TABLE/Light_Aircrafts/2418A.jpg"
+        img4: "/TABLE/Light_Aircrafts/2418A.JPG"
     },
     {
         id: 14,
         name: "NACA 2409",
-        img: "/NACA_PNG/Light_aircraft/2409A.jpg",
+        img: "/NACA_PNG/Light_aircraft/2409A.png",
         img2: "/GRAPH/Light_Aircraft/2409A.png",
         img3: "/SIMULATION/Light_Aircrafts/2409.gif",
-        img4: "/TABLE/Light_Aircrafts/2409A.jpg"
+        img4: "/TABLE/Light_Aircrafts/2409A.JPG"
     },
     {
         id: 15,
         name: "NACA 0009",
-        img: "/NACA_PNG/Light_aircraft/0009B.jpg",
+        img: "/NACA_PNG/Light_aircraft/0009B.png",
         img2: "/GRAPH/Light_Aircraft/0009A.png",
         img3: "/SIMULATION/Light_Aircrafts/0009.gif",
-        img4: "/TABLE/Light_Aircrafts/0009A.jpg"
+        img4: "/TABLE/Light_Aircrafts/0009A.JPG"
     },
 ]
 
@@ -126,122 +126,122 @@ export const lowSpeed = [
     {
         id: 1,
         name: "NACA 2412",
-        img: "/NACA_PNG/Low_Speed/2412A.jpg",
+        img: "/NACA_PNG/Low_Speed/2412A.JPG",
         img2: "/GRAPH/Low_Speed/2412A.png",
         img3: "/SIMULATION/Low_Speed/2412.gif",
-        img4: "/TABLE/Low_Speed/2412A.jpg"
+        img4: "/TABLE/Low_Speed/2412A.JPG"
     },
     {
         id: 2,
         name: "NACA 2415",
-        img: "/NACA_PNG/Low_Speed/2415A.jpg",
+        img: "/NACA_PNG/Low_Speed/2415A.JPG",
         img2: "/GRAPH/Low_Speed/2415A.png",
         img3: "/SIMULATION/Low_Speed/2415.gif",
-        img4: "/TABLE/Low_Speed/2415A.jpg"
+        img4: "/TABLE/Low_Speed/2415A.JPG"
     },
     {
         id: 3,
         name: "NACA 2312",
-        img: "/NACA_PNG/Low_Speed/2312A.jpg",
+        img: "/NACA_PNG/Low_Speed/2312A.JPG",
         img2: "/GRAPH/Low_Speed/2312A.png",
         img3: "/SIMULATION/Low_Speed/2312.gif",
-        img4: "/TABLE/Low_Speed/2312A.jpg"
+        img4: "/TABLE/Low_Speed/2312A.JPG"
     },
     {
         id: 4,
         name: "NACA 4412",
-        img: "/NACA_PNG/Low_Speed/4412A.jpg",
+        img: "/NACA_PNG/Low_Speed/4412A.JPG",
         img2: "/GRAPH/Low_Speed/4412A.png",
         img3: "/SIMULATION/Low_Speed/4412.gif",
-        img4: "/TABLE/Low_Speed/4412A.jpg"
+        img4: "/TABLE/Low_Speed/4412A.JPG"
     },
     {
         id: 5,
         name: "NACA 4415",
-        img: "/NACA_PNG/Low_Speed/4415A.jpg",
+        img: "/NACA_PNG/Low_Speed/4415A.JPG",
         img2: "/GRAPH/Low_Speed/4415A.png",
         img3: "/SIMULATION/Low_Speed/4415.gif",
-        img4: "/TABLE/Low_Speed/4415A.jpg"
+        img4: "/TABLE/Low_Speed/4415A.JPG"
     },
     {
         id: 6,
         name: "NACA 4409",
-        img: "/NACA_PNG/Low_Speed/4409A.jpg",
+        img: "/NACA_PNG/Low_Speed/4409A.JPG",
         img2: "/GRAPH/Low_Speed/4409A.png",
         img3: "/SIMULATION/Low_Speed/4409.gif",
-        img4: "/TABLE/Low_Speed/4409A.jpg"
+        img4: "/TABLE/Low_Speed/4409A.JPG"
     },
     {
         id: 7,
         name: "NACA 2309",
-        img: "/NACA_PNG/Low_Speed/2309A.jpg",
+        img: "/NACA_PNG/Low_Speed/2309A.JPG",
         img2: "/GRAPH/Low_Speed/2309A.png",
         img3: "/SIMULATION/Low_Speed/2309.gif",
-        img4: "/TABLE/Low_Speed/2309A.jpg"
+        img4: "/TABLE/Low_Speed/2309A.JPG"
     },
     {
         id: 8,
         name: "NACA 2315",
-        img: "/NACA_PNG/Low_Speed/2315A.jpg",
+        img: "/NACA_PNG/Low_Speed/2315A.JPG",
         img2: "/GRAPH/Low_Speed/2315A.png",
         img3: "/SIMULATION/Low_Speed/2315.gif",
-        img4: "/TABLE/Low_Speed/2315A.jpg"
+        img4: "/TABLE/Low_Speed/2315A.JPG"
     },
     {
         id: 9,
         name: "NACA 4312",
-        img: "/NACA_PNG/Low_Speed/4312A.jpg",
+        img: "/NACA_PNG/Low_Speed/4312A.JPG",
         img2: "/GRAPH/Low_Speed/4312A.png",
         img3: "/SIMULATION/Low_Speed/4312.gif",
-        img4: "/TABLE/Low_Speed/4312A.jpg"
+        img4: "/TABLE/Low_Speed/4312A.JPG"
     },
     {
         id: 10,
         name: "NACA 4406",
-        img: "/NACA_PNG/Low_Speed/4406A.jpg",
+        img: "/NACA_PNG/Low_Speed/4406A.JPG",
         img2: "/GRAPH/Low_Speed/4406A.png",
         img3: "/SIMULATION/Low_Speed/4406.gif",
-        img4: "/TABLE/Low_Speed/4406A.jpg"
+        img4: "/TABLE/Low_Speed/4406A.JPG"
     },
     {
         id: 11,
         name: "NACA 4418",
-        img: "/NACA_PNG/Low_Speed/4418A.jpg",
+        img: "/NACA_PNG/Low_Speed/4418A.JPG",
         img2: "/GRAPH/Low_Speed/4418A.png",
         img3: "/SIMULATION/Low_Speed/4418.gif",
-        img4: "/TABLE/Low_Speed/4418A.jpg"
+        img4: "/TABLE/Low_Speed/4418A.JPG"
     },
     {
         id: 12,
         name: "NACA 2409",
-        img: "/NACA_PNG/Low_Speed/2409A.jpg",
+        img: "/NACA_PNG/Low_Speed/2409A.JPG",
         img2: "/GRAPH/Low_Speed/2409A.png",
         img3: "/SIMULATION/Low_Speed/2409.gif",
-        img4: "/TABLE/Low_Speed/2409A.jpg"
+        img4: "/TABLE/Low_Speed/2409A.JPG"
     },
     {
         id: 13,
         name: "NACA 4309",
-        img: "/NACA_PNG/Low_Speed/4309A.jpg",
+        img: "/NACA_PNG/Low_Speed/4309A.JPG",
         img2: "/GRAPH/Low_Speed/4309A.png",
         img3: "/SIMULATION/Low_Speed/4309.gif",
-        img4: "/TABLE/Low_Speed/4309A.jpg"
+        img4: "/TABLE/Low_Speed/4309A.JPG"
     },
     {
         id: 14,
         name: "NACA 4315",
-        img: "/NACA_PNG/Low_Speed/4315A.jpg",
+        img: "/NACA_PNG/Low_Speed/4315A.JPG",
         img2: "/GRAPH/Low_Speed/4315A.png",
         img3: "/SIMULATION/Low_Speed/4315.gif",
-        img4: "/TABLE/Low_Speed/4315A.jpg"
+        img4: "/TABLE/Low_Speed/4315A.JPG"
     },
     {
         id: 15,
         name: "NACA 2306",
-        img: "/NACA_PNG/Low_Speed/2306A.jpg",
+        img: "/NACA_PNG/Low_Speed/2306A.JPG",
         img2: "/GRAPH/Low_Speed/2306A.png",
         img3: "/SIMULATION/Low_Speed/2306.gif",
-        img4: "/TABLE/Low_Speed/2306A.jpg"
+        img4: "/TABLE/Low_Speed/2306A.JPG"
     },   
 ]
 
@@ -249,122 +249,122 @@ export const sailpane = [
     {
         id: 1,
         name: "NACA 4412",
-        img: "/NACA_PNG/Sailplane/4412A.jpg",
+        img: "/NACA_PNG/Sailplane/4412A.JPG",
         img2: "/GRAPH/SailPlane/4412A.png",
         img3: "/SIMULATION/Sailplane/4412.gif",
-        img4: "/TABLE/SailPlane/4412A.jpg"
+        img4: "/TABLE/SailPlane/4412A.JPG"
     },
     {
         id: 2,
         name: "NACA 4415",
-        img: "/NACA_PNG/Sailplane/4415A.jpg",
+        img: "/NACA_PNG/Sailplane/4415A.JPG",
         img2: "/GRAPH/SailPlane/4415A.png",
         img3: "/SIMULATION/Sailplane/4415.gif",
-        img4: "/TABLE/SailPlane/4415A.jpg"
+        img4: "/TABLE/SailPlane/4415A.JPG"
     },
     {
         id: 3,
         name: "NACA 2412",
-        img: "/NACA_PNG/Sailplane/2412A.jpg",
+        img: "/NACA_PNG/Sailplane/2412A.JPG",
         img2: "/GRAPH/SailPlane/2412A.png",
         img3: "/SIMULATION/Sailplane/2412.gif",
-        img4: "/TABLE/SailPlane/2412A.jpg"
+        img4: "/TABLE/SailPlane/2412A.JPG"
     },
     {
         id: 4,
         name: "NACA 2312",
-        img: "/NACA_PNG/Sailplane/2312A.jpg",
+        img: "/NACA_PNG/Sailplane/2312A.JPG",
         img2: "/GRAPH/SailPlane/2312A.png",
         img3: "/SIMULATION/Sailplane/2312.gif",
-        img4: "/TABLE/SailPlane/2312A.jpg"
+        img4: "/TABLE/SailPlane/2312A.JPG"
     },
     {
         id: 5,
         name: "NACA 2409",
-        img: "/NACA_PNG/Sailplane/2409A.jpg",
+        img: "/NACA_PNG/Sailplane/2409A.JPG",
         img2: "/GRAPH/SailPlane/2409A.png",
         img3: "/SIMULATION/Sailplane/2409.gif",
-        img4: "/TABLE/SailPlane/2409A.jpg"
+        img4: "/TABLE/SailPlane/2409A.JPG"
     },
     {
         id: 6,
         name: "NACA 2315",
-        img: "/NACA_PNG/Sailplane/2315A.jpg",
+        img: "/NACA_PNG/Sailplane/2315A.JPG",
         img2: "/GRAPH/SailPlane/2315A.png",
         img3: "/SIMULATION/Sailplane/2315.gif",
-        img4: "/TABLE/SailPlane/2315A.jpg"
+        img4: "/TABLE/SailPlane/2315A.JPG"
     },
     {
         id: 7,
         name: "NACA 2415",
-        img: "/NACA_PNG/Sailplane/2415A.jpg",
+        img: "/NACA_PNG/Sailplane/2415A.JPG",
         img2: "/GRAPH/SailPlane/2415A.png",
         img3: "/SIMULATION/Sailplane/2415.gif",
-        img4: "/TABLE/SailPlane/2415A.jpg"
+        img4: "/TABLE/SailPlane/2415A.JPG"
     },
     {
         id: 8,
         name: "NACA 2309",
-        img: "/NACA_PNG/Sailplane/2309A.jpg",
+        img: "/NACA_PNG/Sailplane/2309A.JPG",
         img2: "/GRAPH/SailPlane/2309A.png",
         img3: "/SIMULATION/Sailplane/2309.gif",
-        img4: "/TABLE/SailPlane/2309A.jpg"
+        img4: "/TABLE/SailPlane/2309A.JPG"
     },
     {
         id: 9,
         name: "NACA 4309",
-        img: "/NACA_PNG/Sailplane/4309A.jpg",
+        img: "/NACA_PNG/Sailplane/4309A.JPG",
         img2: "/GRAPH/SailPlane/4309A.png",
         img3: "/SIMULATION/Sailplane/4309.gif",
-        img4: "/TABLE/SailPlane/4309A.jpg"
+        img4: "/TABLE/SailPlane/4309A.JPG"
     },
     {
         id: 10,
         name: "NACA 4312",
-        img: "/NACA_PNG/Sailplane/4312A.jpg",
+        img: "/NACA_PNG/Sailplane/4312A.JPG",
         img2: "/GRAPH/SailPlane/4312A.png",
         img3: "/SIMULATION/Sailplane/4312.gif",
-        img4: "/TABLE/SailPlane/4312A.jpg"
+        img4: "/TABLE/SailPlane/4312A.JPG"
     },
     {
         id: 11,
         name: "NACA 2418",
-        img: "/NACA_PNG/Sailplane/2418A.jpg",
+        img: "/NACA_PNG/Sailplane/2418A.JPG",
         img2: "/GRAPH/SailPlane/2418A.png",
         img3: "/SIMULATION/Sailplane/2418.gif",
-        img4: "/TABLE/SailPlane/2418A.jpg"
+        img4: "/TABLE/SailPlane/2418A.JPG"
     },
     {
         id: 12,
         name: "NACA 4315",
-        img: "/NACA_PNG/Sailplane/4315A.jpg",
+        img: "/NACA_PNG/Sailplane/4315A.JPG",
         img2: "/GRAPH/SailPlane/4315A.png",
         img3: "/SIMULATION/Sailplane/4315.gif",
-        img4: "/TABLE/SailPlane/4315A.jpg"
+        img4: "/TABLE/SailPlane/4315A.JPG"
     },
     {
         id: 13,
         name: "NACA 4306",
-        img: "/NACA_PNG/Sailplane/4306A.jpg",
+        img: "/NACA_PNG/Sailplane/4306A.JPG",
         img2: "/GRAPH/SailPlane/4306A.png",
         img3: "/SIMULATION/Sailplane/4306.gif",
-        img4: "/TABLE/SailPlane/4306A.jpg"
+        img4: "/TABLE/SailPlane/4306A.JPG"
     },
     {
         id: 14,
         name: "NACA 2306",
-        img: "/NACA_PNG/Sailplane/2306A.jpg",
+        img: "/NACA_PNG/Sailplane/2306A.JPG",
         img2: "/GRAPH/SailPlane/2306A.png",
         img3: "/SIMULATION/Sailplane/2306.gif",
-        img4: "/TABLE/SailPlane/2306A.jpg"
+        img4: "/TABLE/SailPlane/2306A.JPG"
     },
     {
         id: 15,
         name: "NACA 2512",
-        img: "/NACA_PNG/Sailplane/2512A.jpg",
+        img: "/NACA_PNG/Sailplane/2512A.JPG",
         img2: "/GRAPH/SailPlane/2512A.png",
         img3: "/SIMULATION/Sailplane/2512.gif",
-        img4: "/TABLE/SailPlane/2512A.jpg"
+        img4: "/TABLE/SailPlane/2512A.JPG"
     },
 
 ]
